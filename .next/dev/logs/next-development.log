@@ -1,3 +1,528 @@
 [00:00:04.410] Server  LOG     ✓ Ready in 3.9s
 [00:00:20.009] Server  LOG     ○ Compiling / ...
 [00:00:21.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:06.093] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:47.562] Server  LOG     ✓ Compiled in 29ms
+[00:13:20.744] Server  LOG     ✓ Compiled in 27ms
+[00:14:05.121] Server  LOG     ✓ Compiled in 28ms
+[00:14:18.831] Server  LOG     ✓ Compiled in 39ms
+[00:14:26.847] Server  LOG     ✓ Compiled in 28ms
+[00:14:55.490] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:55.712] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:55.712] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.231] Browser ERROR   uncaughtError: Error: ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:56.403] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.403] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.403] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.403] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:56.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:59.547] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.547] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.547] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.547] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.709] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.709] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.709] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:7:1
+Module not found: Can't resolve '../components/StarRating'
+   5 | import { tools } from '../../../lib/tools';
+   6 | import ToolReviews from '../components/ToolReviews';
+>  7 | import StarRating from '../components/StarRating';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | interface ToolPageProps {
+  10 |   params: Promise<{
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:59.709] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:6:1
+Module not found: Can't resolve '../components/ToolReviews'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../../lib/tools';
+> 6 | import ToolReviews from '../components/ToolReviews';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import StarRating from '../components/StarRating';
+  8 |
+  9 | interface ToolPageProps {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:32.420] Server  LOG     ✓ Compiled in 36ms
+[00:15:34.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:34.240] Browser ERROR   %s is an async Client Component. Only Server Components can be async at the moment. This error is often caused by accidentally adding `'use client'` to a module that was originally written for the server. <ToolPage>
+[00:15:34.240] Browser ERROR   A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.
+[00:15:54.211] Browser ERROR   A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.

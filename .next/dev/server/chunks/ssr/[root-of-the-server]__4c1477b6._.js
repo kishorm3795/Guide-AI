@@ -56,7 +56,9 @@ const tools = [
             'Claude',
             'Gemini',
             'Perplexity'
-        ]
+        ],
+        averageRating: 4.6,
+        reviewCount: 127
     },
     {
         id: 'notion-ai',
@@ -91,7 +93,9 @@ const tools = [
             'Evernote',
             'Roam Research',
             'Obsidian'
-        ]
+        ],
+        averageRating: 4.3,
+        reviewCount: 89
     },
     {
         id: 'github-copilot',
@@ -126,7 +130,9 @@ const tools = [
             'Tabnine',
             'Kite',
             'CodeWhisperer'
-        ]
+        ],
+        averageRating: 4.7,
+        reviewCount: 234
     },
     {
         id: 'midjourney',
@@ -161,7 +167,9 @@ const tools = [
             'DALL-E',
             'Stable Diffusion',
             'Canva Magic Studio'
-        ]
+        ],
+        averageRating: 4.4,
+        reviewCount: 156
     },
     {
         id: 'perplexity',
@@ -196,7 +204,9 @@ const tools = [
             'ChatGPT',
             'Google Bard',
             'You.com'
-        ]
+        ],
+        averageRating: 4.5,
+        reviewCount: 67
     }
 ];
 const categories = [

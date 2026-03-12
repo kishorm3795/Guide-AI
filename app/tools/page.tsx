@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import StarRating from '../components/StarRating';
 import { tools, categories } from '../../lib/tools';
 
 export default function ToolsPage() {
@@ -111,6 +112,13 @@ export default function ToolsPage() {
                   </span>
                 </div>
                 <p className="text-gray-600 mb-4">{tool.description}</p>
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2">
+                  <StarRating rating={tool.averageRating} size="sm" readonly />
+                  <span className="text-xs text-gray-500 font-medium">
+                    {tool.averageRating.toFixed(1)} ({tool.reviewCount})
+                  </span>
+                </div>
                 <div className="flex justify-between items-center">
                   <span className="text-sm text-gray-500">{tool.pricing}</span>
                   <div className="space-x-2">
@@ -130,6 +138,7 @@ export default function ToolsPage() {
                     </Link>
                   </div>
                 </div>
+              </div>
               </div>
             ))}
           </div>
