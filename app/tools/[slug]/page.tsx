@@ -1,10 +1,8 @@
-'use client';
-
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { tools } from '../../../lib/tools';
-import ToolReviews from '../../components/ToolReviews';
-import StarRating from '../../components/StarRating';
+import ToolReviewsClient from '../../components/ToolReviews';
+import StarRatingClient from '../../components/StarRating';
 
 interface ToolPageProps {
   params: Promise<{
@@ -40,8 +38,8 @@ export default async function ToolPage({ params }: ToolPageProps) {
                   {tool.category}
                 </span>
               </div>
-              <div className="flex items-center gap-2">
-                <StarRating rating={tool.averageRating} size="md" readonly />
+        <div className="flex items-center gap-2">
+                <StarRatingClient rating={tool.averageRating} size="md" readonly />
                 <span className="text-lg font-semibold text-gray-900">
                   {tool.averageRating.toFixed(1)} ({tool.reviewCount})
                 </span>
@@ -143,7 +141,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
         </div>
 
         {/* Reviews Section */}
-        <ToolReviews tool={tool} />
+        <ToolReviewsClient tool={tool} />
       </div>
     </div>
   );

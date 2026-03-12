@@ -526,3 +526,132 @@ https://nextjs.org/docs/messages/module-not-found
 [00:15:34.240] Browser ERROR   %s is an async Client Component. Only Server Components can be async at the moment. This error is often caused by accidentally adding `'use client'` to a module that was originally written for the server. <ToolPage>
 [00:15:34.240] Browser ERROR   A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.
 [00:15:54.211] Browser ERROR   A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.
+[00:22:20.510] Server  LOG     ✓ Compiled in 142ms
+[00:22:20.797] Server  ERROR   ⨯ ReferenceError: StarRating is not defined
+[00:22:20.870] Server  ERROR   ⨯ ReferenceError: StarRating is not defined
+[00:22:21.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:21.221] Browser ERROR   uncaughtError: ReferenceError: StarRating is not defined
+[00:22:45.325] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:45.326] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:45.460] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:45.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:46.122] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.123] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.257] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:46.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:5:1
+Module not found: Can't resolve '../../components/StarRatingClient'
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+> 5 | import StarRatingClient from '../../components/StarRatingClient';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | interface ToolPageProps {
+  8 |   params: Promise<{
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:53.919] Server  LOG     ✓ Compiled in 24ms
+[00:22:54.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:37.041] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:1:13
+Parsing ecmascript source code failed
+> 1 | clearimport { notFound } from 'next/navigation';
+    |             ^
+  2 | import Link from 'next/link';
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+
+Expected ';', '}' or <eof>
+[00:23:37.710] Browser ERROR   ./Documents/My Projects/Guide-AI/app/tools/[slug]/page.tsx:1:13
+Parsing ecmascript source code failed
+> 1 | clearimport { notFound } from 'next/navigation';
+    |             ^
+  2 | import Link from 'next/link';
+  3 | import { tools } from '../../../lib/tools';
+  4 | import ToolReviewsClient from '../../components/ToolReviews';
+
+Expected ';', '}' or <eof>
