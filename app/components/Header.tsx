@@ -17,6 +17,7 @@ export default function Header() {
                 0
               </span>
             </Link>
+            <Link href="/compare" className="text-gray-700 hover:text-gray-900">Compare</Link>
             <Link href="/about" className="text-gray-700 hover:text-gray-900">About</Link>
             <Link href="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
           </nav>
