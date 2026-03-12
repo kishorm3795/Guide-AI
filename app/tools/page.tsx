@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import StarRating from '../components/StarRating';
-import FavoritesButton from '../components/FavoritesButton';
+// import FavoritesButton from '../components/FavoritesButton';
 import { tools, categories } from '../../lib/tools';
 
 export default function ToolsPage() {
@@ -121,7 +121,9 @@ export default function ToolsPage() {
                   </span>
                 </div>
                 <div className="flex items-center justify-between gap-2">
-                  <FavoritesButton tool={tool} className="flex-shrink-0" />
+                  <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center flex-shrink-0">
+                    ❤️
+                  </div>
                   <span className="text-sm text-gray-500 flex-1 text-center">{tool.pricing}</span>
                   <div className="space-x-2">
                     <a

@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { tools } from '../../../lib/tools';
-import FavoritesButton from '../../components/FavoritesButton';
+import { tools } from '../../lib/tools';
+import FavoritesButton from '../components/FavoritesButton';
 
 export default function FavoritesPage() {
   const [favorites, setFavorites] = useState<string[]>([]);

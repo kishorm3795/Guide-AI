@@ -4,7 +4,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { tools } from '../../lib/tools';
 import StarRating from '../../components/StarRating';
-import FavoritesButton from '../../components/FavoritesButton';
+// import FavoritesButton from '../../components/FavoritesButton';
 
 interface ExtendedTool {
   id: string;
@@ -175,7 +175,9 @@ export default function ComparePage() {
                     {tool.category}
                   </span>
                 </div>
-                <FavoritesButton tool={tool} className="ml-4 flex-shrink-0" />
+                <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center ml-4 flex-shrink-0">
+                  ❤️
+                </div>
               </div>
               
               <div className="space-y-4 text-sm">
