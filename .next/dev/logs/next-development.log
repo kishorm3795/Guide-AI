@@ -655,3 +655,15 @@ Parsing ecmascript source code failed
   4 | import ToolReviewsClient from '../../components/ToolReviews';
 
 Expected ';', '}' or <eof>
+[00:25:16.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:17.591] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:40.063] Server  LOG     ✓ Compiled in 26ms
+[00:27:58.844] Server  LOG     ✓ Compiled in 25ms
+[00:28:07.549] Server  LOG     ✓ Compiled in 66ms
+[00:28:29.866] Server  LOG     ✓ Compiled in 16ms
+[00:28:38.632] Server  LOG     ✓ Compiled in 27ms
+[00:39:02.852] Server  LOG     ✓ Compiled in 155ms
+[00:53:54.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:55.481] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:55.851] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:56.716] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

@@ -11,6 +11,12 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8">
             <Link href="/" className="text-gray-700 hover:text-gray-900">Home</Link>
             <Link href="/tools" className="text-gray-700 hover:text-gray-900">Tools</Link>
+            <Link href="/favorites" className="text-gray-700 hover:text-gray-900 relative">
+              Favorites
+              <span className="absolute -top-2 -right-2 bg-yellow-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">
+                0
+              </span>
+            </Link>
             <Link href="/about" className="text-gray-700 hover:text-gray-900">About</Link>
             <Link href="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
           </nav>

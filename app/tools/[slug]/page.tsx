@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { tools } from '../../../lib/tools';
 import ToolReviewsClient from '../../components/ToolReviews';
 import StarRatingClient from '../../components/StarRating';
+import FavoritesButton from '../../components/FavoritesButton';
 
 interface ToolPageProps {
   params: Promise<{
@@ -61,9 +62,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
               </svg>
               Visit {tool.name}
             </a>
-            <button className="flex-1 bg-gray-900 text-white py-3 px-6 rounded-lg font-semibold text-center hover:bg-gray-800 transition-colors">
-              Add to Favorites
-            </button>
+            <FavoritesButton tool={tool} className="flex-1" />
           </div>
 
           {/* Features & Use Cases */}

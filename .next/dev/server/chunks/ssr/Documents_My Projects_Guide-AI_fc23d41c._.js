@@ -352,7 +352,7 @@ function ToolsPage() {
                             children: "AI Tools Directory"
                         }, void 0, false, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 42,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -360,7 +360,7 @@ function ToolsPage() {
                             children: "Explore our curated collection of AI tools across different categories."
                         }, void 0, false, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 43,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -377,7 +377,7 @@ function ToolsPage() {
                                                     children: "🔍 Search tools"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 53,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -389,13 +389,13 @@ function ToolsPage() {
                                                     className: "w-full px-4 py-3 border border-gray-200 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition-all"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 55,
+                                                    lineNumber: 56,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 52,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -406,7 +406,7 @@ function ToolsPage() {
                                                     children: "Filter by category"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 68,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -420,7 +420,7 @@ function ToolsPage() {
                                                             children: "All Categories"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                            lineNumber: 76,
+                                                            lineNumber: 77,
                                                             columnNumber: 19
                                                         }, this),
                                                         __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$lib$2f$tools$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["categories"].map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -428,25 +428,25 @@ function ToolsPage() {
                                                                 children: category
                                                             }, category, false, {
                                                                 fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                                lineNumber: 78,
+                                                                lineNumber: 79,
                                                                 columnNumber: 21
                                                             }, this))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 71,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 67,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -462,7 +462,7 @@ function ToolsPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 88,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, this),
                                         (searchQuery || selectedCategory) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -471,25 +471,25 @@ function ToolsPage() {
                                             children: "Clear filters"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 93,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 48,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                    lineNumber: 41,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 filteredTools.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -505,7 +505,7 @@ function ToolsPage() {
                                             children: tool.name
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 110,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -513,13 +513,13 @@ function ToolsPage() {
                                             children: tool.category
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 111,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 109,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -527,7 +527,7 @@ function ToolsPage() {
                                     children: tool.description
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 115,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -542,7 +542,7 @@ function ToolsPage() {
                                                     readonly: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 117,
+                                                    lineNumber: 118,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -555,13 +555,13 @@ function ToolsPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 119,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 117,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -572,7 +572,7 @@ function ToolsPage() {
                                                     children: tool.pricing
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 124,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -586,7 +586,7 @@ function ToolsPage() {
                                                             children: "Visit Site"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 126,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -595,36 +595,36 @@ function ToolsPage() {
                                                             children: "Details"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                            lineNumber: 133,
+                                                            lineNumber: 134,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 125,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 123,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 116,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, tool.id, true, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 107,
+                            lineNumber: 108,
                             columnNumber: 15
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                    lineNumber: 105,
+                    lineNumber: 106,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-center py-16",
@@ -634,7 +634,7 @@ function ToolsPage() {
                             children: "🔍"
                         }, void 0, false, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 147,
+                            lineNumber: 148,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -642,7 +642,7 @@ function ToolsPage() {
                             children: "No tools found"
                         }, void 0, false, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 148,
+                            lineNumber: 149,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -650,7 +650,7 @@ function ToolsPage() {
                             children: "Try adjusting your search or filter criteria."
                         }, void 0, false, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 149,
+                            lineNumber: 150,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -659,24 +659,24 @@ function ToolsPage() {
                             children: "Clear all filters"
                         }, void 0, false, {
                             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                            lineNumber: 150,
+                            lineNumber: 151,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-                    lineNumber: 146,
+                    lineNumber: 147,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-            lineNumber: 40,
+            lineNumber: 41,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx",
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }
