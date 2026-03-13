@@ -3,7 +3,7 @@
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { tools } from '../../lib/tools';
-import StarRating from '../../components/StarRating';
+// import StarRating from '../../components/StarRating';
 // import FavoritesButton from '../../components/FavoritesButton';
 
 interface ExtendedTool {
@@ -101,7 +101,7 @@ export default function ComparePage() {
                 {selectedTools.map(tool => (
                   <td key={tool.id} className="px-4 py-4 text-sm text-center">
                     <div className="flex items-center justify-center gap-1">
-                      <StarRating rating={tool.averageRating} size="sm" readonly />
+                      <span className="text-2xl">⭐</span>
                       <span>{tool.averageRating.toFixed(1)}</span>
                     </div>
                     <div className="text-xs text-gray-500 mt-1">({tool.reviewCount})</div>
@@ -184,7 +184,7 @@ export default function ComparePage() {
                 <div>
                   <div className="font-medium text-gray-900 mb-1">Rating</div>
                   <div className="flex items-center gap-2">
-                    <StarRating rating={tool.averageRating} size="sm" readonly />
+                    <span className="text-xl">⭐</span>
                     <span className="font-medium">{tool.averageRating.toFixed(1)}</span>
                   </div>
                 </div>

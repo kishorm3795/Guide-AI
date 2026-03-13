@@ -25,7 +25,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.dark {
-  @apply bg-gray-900 text-gray-100;
-}
+.dark .bg-gray-50 { @apply bg-gray-900; }
+.dark .text-gray-900 { @apply text-gray-100; }
+.dark .text-gray-700 { @apply text-gray-300; }
+.dark .text-gray-600 { @apply text-gray-400; }
+.dark .text-gray-500 { @apply text-gray-400; }
+.dark .bg-white { @apply bg-gray-800; }
+.dark .bg-gray-100 { @apply bg-gray-700; }
+.dark .bg-blue-100 { @apply bg-blue-900/20; }
+.dark .bg-blue-600 { @apply bg-blue-500; }
+.dark .hover\\:bg-blue-700:hover { @apply hover:bg-blue-400; }
+.dark .border-gray-200 { @apply border-gray-600; }
+.dark .bg-green-50 { @apply bg-green-900/20; }
 

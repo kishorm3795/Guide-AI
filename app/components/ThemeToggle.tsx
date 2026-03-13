@@ -1,38 +1,42 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function ThemeToggle() {
   const [isDark, setIsDark] = useState(false);
 
-  // Initialize theme on mount (no effect needed)
-  const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
-  const [isDark, setIsDark] = useState(isDarkInitial);
-
   useEffect(() => {
-    if (isDarkInitial) {
-      document.documentElement.classList.add('dark');
+    // Check for saved theme or system preference
+    const root = window.document.documentElement;
+    const isDarkTheme = localStorage.theme === 'dark' || 
+      (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    
+    setIsDark(isDarkTheme);
+    if (isDarkTheme) {
+      root.classList.add('dark');
     } else {
-      document.documentElement.classList.remove('dark');
+      root.classList.remove('dark');
     }
-  }, []); // Runs once on mount only
+  }, []);
 
   const toggleTheme = () => {
-    if (isDark) {
-      document.documentElement.classList.remove('dark');
-      localStorage.theme = 'light';
-      setIsDark(false);
-    } else {
-      document.documentElement.classList.add('dark');
+    const root = window.document.documentElement;
+    const newIsDark = !isDark;
+    
+    setIsDark(newIsDark);
+    if (newIsDark) {
+      root.classList.add('dark');
       localStorage.theme = 'dark';
-      setIsDark(true);
+    } else {
+      root.classList.remove('dark');
+      localStorage.theme = 'light';
     }
   };
 
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all text-gray-700 dark:text-gray-300"
+      className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition-all text-gray-700 dark:text-gray-300"
       aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
       title={isDark ? 'Light mode' : 'Dark mode'}
     >

@@ -2418,3 +2418,2991 @@ Import traces:
     ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
+[00:25:15.302] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+
+./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+[00:25:15.412] Browser ERROR   uncaughtError: Error: ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:15.563] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:16.034] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+
+./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+[00:25:16.122] Browser ERROR   uncaughtError: Error: ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.220] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:16.224] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+
+./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+[00:25:16.306] Browser ERROR   uncaughtError: Error: ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:16.443] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:10
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |          ^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `isDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx:10:18
+Ecmascript file had an error
+   8 |   // Initialize theme on mount (no effect needed)
+   9 |   const isDarkInitial = localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+> 10 |   const [isDark, setIsDark] = useState(isDarkInitial);
+     |                  ^^^^^^^^^
+  11 |
+  12 |   useEffect(() => {
+  13 |     if (isDarkInitial) {
+
+the name `setIsDark` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/components/Header.tsx [Server Component]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[00:25:17.321] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:25.642] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:25.643] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:25.645] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:25.648] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:25.675] Server  LOG     ✓ Compiled in 29ms
+[00:40:25.778] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:26.324] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:40.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:40.322] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:40.322] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:40.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:40.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:40.336] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:40.336] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:12.551] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:12.724] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:12.724] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:13.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:13.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:13.324] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:13.324] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:13.324] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:55:13.324] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:02:06.085] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:06.248] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:02:06.248] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:16.809] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:16.984] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:16.984] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:17.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:17.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:56.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:56.953] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:56.953] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:33.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:33.322] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:33.322] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:33.441] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:33.441] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.055] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:34.196] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.196] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.613] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:34.760] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:34.760] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.117] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:35.263] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.263] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:05:35.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/compare/page.tsx:6:1
+Module not found: Can't resolve '../../components/StarRating'
+  4 | import Link from 'next/link';
+  5 | import { tools } from '../../lib/tools';
+> 6 | import StarRating from '../../components/StarRating';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | // import FavoritesButton from '../../components/FavoritesButton';
+  8 |
+  9 | interface ExtendedTool {
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/compare/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:37:11.456] Server  LOG     ✓ Compiled in 214ms
+[01:38:11.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:19.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:10.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:38.138] Server  LOG     ✓ Compiled in 43ms
+[01:40:38.243] Browser ERROR   ./Documents/My Projects/Guide-AI/app/globals.css:1420:16
+Parsing CSS source code failed
+  1418 |   background-color: var(--color-blue-500);
+  1419 | }
+> 1420 | .dark .hover\\:bg-blue-700:hover {
+       |                ^
+  1421 |   &:hover {
+  1422 |     @media (hover: hover) {
+  1423 |       background-color: var(--color-blue-400);
+
+'bg-blue-700' is not recognized as a valid pseudo-class. Did you mean '::bg-blue-700' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/globals.css [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[01:40:38.322] Browser ERROR   ./Documents/My Projects/Guide-AI/app/globals.css:1420:16
+Parsing CSS source code failed
+  1418 |   background-color: var(--color-blue-500);
+  1419 | }
+> 1420 | .dark .hover\\:bg-blue-700:hover {
+       |                ^
+  1421 |   &:hover {
+  1422 |     @media (hover: hover) {
+  1423 |       background-color: var(--color-blue-400);
+
+'bg-blue-700' is not recognized as a valid pseudo-class. Did you mean '::bg-blue-700' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/globals.css [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[01:40:39.493] Browser ERROR   ./Documents/My Projects/Guide-AI/app/globals.css:1420:16
+Parsing CSS source code failed
+  1418 |   background-color: var(--color-blue-500);
+  1419 | }
+> 1420 | .dark .hover\\:bg-blue-700:hover {
+       |                ^
+  1421 |   &:hover {
+  1422 |     @media (hover: hover) {
+  1423 |       background-color: var(--color-blue-400);
+
+'bg-blue-700' is not recognized as a valid pseudo-class. Did you mean '::bg-blue-700' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/globals.css [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]
+[01:40:40.323] Browser ERROR   ./Documents/My Projects/Guide-AI/app/globals.css:1420:16
+Parsing CSS source code failed
+  1418 |   background-color: var(--color-blue-500);
+  1419 | }
+> 1420 | .dark .hover\\:bg-blue-700:hover {
+       |                ^
+  1421 |   &:hover {
+  1422 |     @media (hover: hover) {
+  1423 |       background-color: var(--color-blue-400);
+
+'bg-blue-700' is not recognized as a valid pseudo-class. Did you mean '::bg-blue-700' (pseudo-element) or is this a typo?
+
+Import trace:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/app/globals.css [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/layout.tsx [Server Component]

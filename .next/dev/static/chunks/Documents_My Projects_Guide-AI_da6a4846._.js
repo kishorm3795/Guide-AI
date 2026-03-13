@@ -15,32 +15,34 @@ var _s = __turbopack_context__.k.signature();
 function ThemeToggle() {
     _s();
     const [isDark, setIsDark] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    // Initialize theme on mount (no effect needed)
-    const isDarkInitial = localStorage.theme === 'dark' || !localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const [isDark, setIsDark] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(isDarkInitial);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ThemeToggle.useEffect": ()=>{
-            if (isDarkInitial) {
-                document.documentElement.classList.add('dark');
+            // Check for saved theme or system preference
+            const root = window.document.documentElement;
+            const isDarkTheme = localStorage.theme === 'dark' || !localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            setIsDark(isDarkTheme);
+            if (isDarkTheme) {
+                root.classList.add('dark');
             } else {
-                document.documentElement.classList.remove('dark');
+                root.classList.remove('dark');
             }
         }
-    }["ThemeToggle.useEffect"], []); // Runs once on mount only
+    }["ThemeToggle.useEffect"], []);
     const toggleTheme = ()=>{
-        if (isDark) {
-            document.documentElement.classList.remove('dark');
-            localStorage.theme = 'light';
-            setIsDark(false);
-        } else {
-            document.documentElement.classList.add('dark');
+        const root = window.document.documentElement;
+        const newIsDark = !isDark;
+        setIsDark(newIsDark);
+        if (newIsDark) {
+            root.classList.add('dark');
             localStorage.theme = 'dark';
-            setIsDark(true);
+        } else {
+            root.classList.remove('dark');
+            localStorage.theme = 'light';
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         onClick: toggleTheme,
-        className: "p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all text-gray-700 dark:text-gray-300",
+        className: "p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition-all text-gray-700 dark:text-gray-300",
         "aria-label": isDark ? 'Switch to light mode' : 'Switch to dark mode',
         title: isDark ? 'Light mode' : 'Dark mode',
         children: isDark ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -55,12 +57,12 @@ function ThemeToggle() {
                 d: "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
             }, void 0, false, {
                 fileName: "[project]/Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx",
-                lineNumber: 41,
+                lineNumber: 45,
                 columnNumber: 11
             }, this)
         }, void 0, false, {
             fileName: "[project]/Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx",
-            lineNumber: 40,
+            lineNumber: 44,
             columnNumber: 9
         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
             className: "w-5 h-5",
@@ -74,21 +76,21 @@ function ThemeToggle() {
                 d: "M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 0 0 8.354-5.646z"
             }, void 0, false, {
                 fileName: "[project]/Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx",
-                lineNumber: 45,
+                lineNumber: 49,
                 columnNumber: 11
             }, this)
         }, void 0, false, {
             fileName: "[project]/Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx",
-            lineNumber: 44,
+            lineNumber: 48,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/Documents/My Projects/Guide-AI/app/components/ThemeToggle.tsx",
-        lineNumber: 33,
+        lineNumber: 37,
         columnNumber: 5
     }, this);
 }
-_s(ThemeToggle, "EiFmItYPY6lCi1x6DQKrAPINp18=");
+_s(ThemeToggle, "q9ovQTvwIdpxeVii6kJLTuTYpwE=");
 _c = ThemeToggle;
 var _c;
 __turbopack_context__.k.register(_c, "ThemeToggle");
