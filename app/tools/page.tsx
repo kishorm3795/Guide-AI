@@ -140,6 +140,16 @@ export default function ToolsPage() {
                     >
                       Details
                     </Link>
+                    <button
+                      onClick={() => {
+                        const shareText = `Check out ${tool.name}: ${tool.description.substring(0, 100)}... ${window.location.origin}/tools/${tool.id}`;
+                        navigator.clipboard.writeText(shareText);
+                      }}
+                      className="text-gray-600 hover:text-gray-800 font-medium text-xs"
+                      title="Quick share"
+                    >
+                      📤
+                    </button>
                   </div>
                 </div>
               </div>

@@ -4,6 +4,7 @@ import { tools } from '../../../lib/tools';
 import ToolReviewsClient from '../../components/ToolReviews';
 import StarRatingClient from '../../components/StarRating';
 import FavoritesButton from '../../components/FavoritesButton';
+import SocialShare from '../../components/SocialShare';
 
 interface ToolPageProps {
   params: Promise<{
@@ -125,6 +126,9 @@ export default async function ToolPage({ params }: ToolPageProps) {
               </div>
             </div>
           </div>
+
+          {/* Social Sharing */}
+          <SocialShare toolId={tool.id} toolName={tool.name} />
 
           {/* Alternatives */}
           <div className="mb-8">
