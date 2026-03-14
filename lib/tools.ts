@@ -134,8 +134,48 @@ export const tools: Tool[] = [
     averageRating: 4.5,
     reviewCount: 89,
     lastUpdated: '1 day ago'
+  },
+  {
+    id: 'claude',
+    name: 'Claude AI',
+    category: 'AI Assistants',
+    description: "Anthropic's safe and helpful AI assistant with superior reasoning and long context understanding.",
+    features: [
+      'Superior reasoning & coding',
+      '200K token context window',
+      'Constitutional AI safety',
+      'Projects & Artifacts',
+      'API & integrations'
+    ],
+    link: 'https://claude.ai',
+    pricing: 'Free tier, Pro $20/month, Team $30/user/month',
+    useCases: [
+      'Advanced coding & debugging',
+      'Complex analysis tasks',
+      'Long document processing',
+      'Creative writing',
+      'Enterprise AI workflows'
+    ],
+    pros: [
+      'Best coding capabilities',
+      'Long context handling',
+      'Safety aligned',
+      'Fast responses',
+      'Great for complex tasks'
+    ],
+    cons: [
+      'Rate limits on free tier',
+      'No image generation',
+      'Anthropic ecosystem',
+      'No real-time web access'
+    ],
+    alternatives: ['ChatGPT', 'Gemini', 'Grok'],
+    averageRating: 4.8,
+    reviewCount: 156,
+    lastUpdated: '2 days ago'
   }
 ];
+
 
 
 export const categories = [
