@@ -138,7 +138,8 @@ const tools = [
             'Perplexity'
         ],
         averageRating: 4.6,
-        reviewCount: 127
+        reviewCount: 127,
+        lastUpdated: '3 days ago'
     },
     {
         id: 'notion-ai',
@@ -175,7 +176,8 @@ const tools = [
             'Obsidian'
         ],
         averageRating: 4.3,
-        reviewCount: 89
+        reviewCount: 89,
+        lastUpdated: '1 week ago'
     },
     {
         id: 'github-copilot',
@@ -212,7 +214,8 @@ const tools = [
             'CodeWhisperer'
         ],
         averageRating: 4.7,
-        reviewCount: 234
+        reviewCount: 234,
+        lastUpdated: '2 days ago'
     },
     {
         id: 'midjourney',
@@ -249,7 +252,8 @@ const tools = [
             'Canva Magic Studio'
         ],
         averageRating: 4.4,
-        reviewCount: 156
+        reviewCount: 156,
+        lastUpdated: '4 days ago'
     },
     {
         id: 'perplexity',
@@ -286,7 +290,8 @@ const tools = [
             'You.com'
         ],
         averageRating: 4.5,
-        reviewCount: 67
+        reviewCount: 67,
+        lastUpdated: '5 days ago'
     }
 ];
 const categories = [
