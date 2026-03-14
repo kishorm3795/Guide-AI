@@ -1,6 +1,4 @@
-import type { ViewportOptions } from 'next';
-
-export default function viewport(): ViewportOptions {
+export default function viewport() {
   return {
     width: 'device-width',
     initialScale: 1,
