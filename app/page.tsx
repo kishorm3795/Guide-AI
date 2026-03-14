@@ -1,6 +1,26 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { tools, categories } from '../lib/tools';
 import AIRecommendation from './components/AIRecommendation';
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'AI & Productivity Tools You Should Know - Best AI Tools Directory',
+    description: 'Discover 50+ curated AI tools for writing, productivity, automation, research, and more. Expert reviews, comparisons, and personalized recommendations.',
+    openGraph: {
+      title: 'AI & Productivity Tools You Should Know',
+      description: 'The ultimate directory of AI tools to boost your productivity. ChatGPT, Notion AI, GitHub Copilot, Midjourney, and more.',
+      images: '/og-image-home.jpg',
+      url: 'https://yourdomain.com',
+    },
+    twitter: {
+      title: 'AI & Productivity Tools You Should Know',
+      description: 'Discover the best AI tools for productivity and creativity.',
+      images: '/og-image-home.jpg',
+      card: 'summary_large_image',
+    },
+  };
+}
 
 export default function Home() {
   const featuredTools = tools.slice(0, 3); // Show first 3 tools
@@ -108,6 +128,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Structured Data - JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "AI Tools Directory",
+            "url": "https://yourdomain.com",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://yourdomain.com/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          })
+        }}
+      />
     </div>
   );
 }

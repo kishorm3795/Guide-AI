@@ -152,8 +152,78 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f
 ;
 ;
 const metadata = {
-    title: "AI & Productivity Tools",
-    description: "Discover the best AI tools for productivity, writing, automation, research, and more."
+    metadataBase: new URL('https://yourdomain.com'),
+    title: {
+        default: "AI & Productivity Tools Directory",
+        template: '%s | AI Tools Directory'
+    },
+    description: "Discover the best AI tools for productivity, writing, automation, research, and more. Curated directory of 50+ AI tools with reviews, comparisons, and recommendations.",
+    verification: {
+        google: 'your-google-verification-code',
+        yandex: 'your-yandex-verification-code'
+    },
+    authors: [
+        {
+            name: 'AI Tools Team',
+            url: 'https://yourdomain.com/about'
+        }
+    ],
+    creator: '@yourtwitterhandle',
+    publisher: 'AI Tools Directory',
+    keywords: [
+        'AI tools',
+        'productivity tools',
+        'ChatGPT',
+        'AI writing',
+        'automation',
+        'research tools'
+    ],
+    classification: 'AI Tools Directory',
+    referrer: 'origin-when-cross-origin',
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1
+        }
+    },
+    icons: {
+        icon: '/favicon.ico',
+        shortcut: '/favicon.ico',
+        apple: '/apple-touch-icon.png'
+    },
+    openGraph: {
+        title: 'AI & Productivity Tools Directory - 50+ Curated AI Tools',
+        description: 'Discover the best AI tools for productivity, writing, automation, research, and more. Reviews, comparisons, and expert recommendations.',
+        url: 'https://yourdomain.com',
+        siteName: 'AI Tools Directory',
+        images: [
+            {
+                url: '/og-image-home.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'AI Tools Directory - Best AI Productivity Tools'
+            }
+        ],
+        locale: 'en_US',
+        type: 'website'
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'AI & Productivity Tools Directory',
+        description: 'Discover 50+ curated AI tools for productivity, writing, and automation.',
+        creator: '@yourtwitterhandle',
+        images: [
+            '/og-image-home.jpg'
+        ]
+    },
+    alternates: {
+        canonical: '/'
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -163,30 +233,30 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$app$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/Documents/My Projects/Guide-AI/app/layout.tsx",
-                    lineNumber: 32,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/Documents/My Projects/Guide-AI/app/layout.tsx",
-                    lineNumber: 33,
+                    lineNumber: 90,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$My__Projects$2f$Guide$2d$AI$2f$app$2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/Documents/My Projects/Guide-AI/app/layout.tsx",
-                    lineNumber: 34,
+                    lineNumber: 91,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/My Projects/Guide-AI/app/layout.tsx",
-            lineNumber: 29,
+            lineNumber: 86,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Documents/My Projects/Guide-AI/app/layout.tsx",
-        lineNumber: 28,
+        lineNumber: 85,
         columnNumber: 5
     }, this);
 }
