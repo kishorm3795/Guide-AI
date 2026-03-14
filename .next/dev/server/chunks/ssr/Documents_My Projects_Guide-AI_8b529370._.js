@@ -378,6 +378,51 @@ const tools = [
         averageRating: 4.8,
         reviewCount: 156,
         lastUpdated: '2 days ago'
+    },
+    {
+        id: 'runwayml',
+        name: 'Runway ML',
+        category: 'Video AI',
+        description: 'Advanced AI video generation and editing platform with Gen-3 Alpha model.',
+        features: [
+            'Text-to-video generation',
+            'Image-to-video',
+            'Video-to-video',
+            'Motion brush',
+            'Lip sync',
+            'Real-time editing'
+        ],
+        link: 'https://runwayml.com',
+        pricing: 'Free tier, Standard $15/mo, Pro $35/mo',
+        useCases: [
+            'Marketing videos',
+            'Social media content',
+            'Film & TV production',
+            'Product demos',
+            'Creative storytelling'
+        ],
+        pros: [
+            'Best video quality',
+            'Advanced editing tools',
+            'Real-time preview',
+            'Professional workflows',
+            'Regular model updates'
+        ],
+        cons: [
+            'Credit-based system',
+            'High compute costs',
+            'Learning curve',
+            'Watermarks on free'
+        ],
+        alternatives: [
+            'Sora',
+            'Pika Labs',
+            'Luma AI',
+            'Kling AI'
+        ],
+        averageRating: 4.6,
+        reviewCount: 112,
+        lastUpdated: '1 day ago'
     }
 ];
 const categories = [
