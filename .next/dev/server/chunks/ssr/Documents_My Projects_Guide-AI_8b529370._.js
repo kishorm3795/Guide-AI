@@ -292,6 +292,49 @@ const tools = [
         averageRating: 4.5,
         reviewCount: 67,
         lastUpdated: '5 days ago'
+    },
+    {
+        id: 'gemini',
+        name: 'Google Gemini',
+        category: 'AI Assistants',
+        description: "Google's powerful multimodal AI model for advanced text, code, image understanding, and reasoning.",
+        features: [
+            'Multimodal (text, images, code)',
+            'Advanced reasoning capabilities',
+            '1M token context window',
+            'Google ecosystem integration',
+            'Function calling & plugins'
+        ],
+        link: 'https://gemini.google.com',
+        pricing: 'Free tier, Advanced $20/month',
+        useCases: [
+            'Complex problem solving',
+            'Code generation & debugging',
+            'Document analysis with images',
+            'Research & analysis',
+            'Enterprise workflows'
+        ],
+        pros: [
+            'Multimodal understanding',
+            'Long context window',
+            'Fast response times',
+            'Google integration',
+            'Regular updates'
+        ],
+        cons: [
+            'Google ecosystem lock-in',
+            'Limited third-party integrations',
+            'Advanced tier expensive',
+            'Regional availability'
+        ],
+        alternatives: [
+            'ChatGPT',
+            'Claude',
+            'Grok'
+        ],
+        averageRating: 4.5,
+        reviewCount: 89,
+        lastUpdated: '1 day ago'
     }
 ];
 const categories = [
