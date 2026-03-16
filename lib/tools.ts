@@ -257,6 +257,50 @@ export const tools: Tool[] = [
     averageRating: 4.7,
     reviewCount: 45,
     lastUpdated: 'Today'
+  },
+  {
+    id: 'microsoft-copilot',
+    name: 'Microsoft Copilot',
+    category: 'AI Assistants',
+    description: "Microsoft's everyday AI companion powered by GPT-4o, integrated across Windows, Edge, Bing, Office 365, and more.",
+    features: [
+      'GPT-4o model',
+      'Real-time web access (Bing)',
+      'Image generation (Designer)',
+      'Microsoft 365 integration',
+      'Voice conversations',
+      'Custom GPTs (Copilot Studio)',
+      'Mobile & desktop apps'
+    ],
+    link: 'https://copilot.microsoft.com',
+    pricing: 'Free basic, Pro $20/user/month, Enterprise custom',
+    useCases: [
+      'Productivity (Word, Excel, PPT)',
+      'Web research & summaries',
+      'Code assistance (VS Code)',
+      'Email & meeting summaries',
+      'Image generation',
+      'Customer support'
+    ],
+    pros: [
+      'Deep Microsoft integration',
+      'Free tier powerful',
+      'Multi-modal (text/image)',
+      'Enterprise security',
+      'Real-time information',
+      'Mobile apps'
+    ],
+    cons: [
+      'Microsoft ecosystem lock-in',
+      'Privacy concerns',
+      'Pro features paywalled',
+      'Slower than dedicated assistants',
+      'Limited customization'
+    ],
+    alternatives: ['ChatGPT', 'Gemini', 'Claude', 'Perplexity'],
+    averageRating: 4.4,
+    reviewCount: 78,
+    lastUpdated: 'Today'
   }
 ];
 
