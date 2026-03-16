@@ -528,6 +528,55 @@ const tools = [
         averageRating: 4.4,
         reviewCount: 78,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'character-ai',
+        name: 'Character.AI',
+        category: 'AI Assistants',
+        description: 'Create and chat with customizable AI characters, from historical figures to fictional personalities and custom creations.',
+        features: [
+            'Millions of user-created characters',
+            'Role-playing conversations',
+            'Character customization',
+            'Group chats',
+            'Voice calls',
+            'Mobile apps',
+            'Community sharing'
+        ],
+        link: 'https://character.ai',
+        pricing: 'Free with limits, c.ai+ $9.99/month',
+        useCases: [
+            'Role-playing & storytelling',
+            'Language practice',
+            'Character development',
+            'Entertainment',
+            'Creative writing inspiration',
+            'Mental health companion'
+        ],
+        pros: [
+            'Huge character variety',
+            'Highly engaging conversations',
+            'Free tier generous',
+            'Community-driven',
+            'Voice interaction',
+            'Fun & creative'
+        ],
+        cons: [
+            'Content moderation issues',
+            'Memory limitations',
+            'Paywall for priority access',
+            'Can be repetitive',
+            'Privacy concerns with user data'
+        ],
+        alternatives: [
+            'ChatGPT',
+            'Poe.com',
+            'Janitor AI',
+            'Crushon AI'
+        ],
+        averageRating: 4.5,
+        reviewCount: 189,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
