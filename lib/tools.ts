@@ -345,6 +345,49 @@ export const tools: Tool[] = [
     averageRating: 4.5,
     reviewCount: 189,
     lastUpdated: 'Today'
+  },
+  {
+    id: 'poe',
+    name: 'Poe',
+    category: 'AI Assistants',
+    description: 'Access multiple AI models in one place - GPT-4o, Claude 3.5, Gemini, Llama, and more with custom bots.',
+    features: [
+      '20+ AI models',
+      'Custom bot creation',
+      'Fast model switching',
+      'Unlimited free messages (slower)',
+      'Prompt library',
+      'Mobile app',
+      'API access'
+    ],
+    link: 'https://poe.com',
+    pricing: 'Free unlimited (slow), $20/month for priority',
+    useCases: [
+      'Model comparison',
+      'Custom AI assistants',
+      'Rapid testing',
+      'Multi-model workflows',
+      'Research across models'
+    ],
+    pros: [
+      'All models in one place',
+      'Custom bots easy',
+      'Free tier usable',
+      'Fast switching',
+      'Great for testing',
+      'Regular new models'
+    ],
+    cons: [
+      'Free tier slower',
+      'Message limits on premium models',
+      'Less polished UI',
+      'Dependency on Quora',
+      'Bot quality varies'
+    ],
+    alternatives: ['ChatGPT', 'Perplexity', 'Groq', 'You.com'],
+    averageRating: 4.6,
+    reviewCount: 134,
+    lastUpdated: 'Today'
   }
 ];
 
