@@ -423,6 +423,56 @@ const tools = [
         averageRating: 4.6,
         reviewCount: 112,
         lastUpdated: '1 day ago'
+    },
+    {
+        id: 'synthesia',
+        name: 'Synthesia',
+        category: 'Video AI',
+        description: 'AI video platform that lets you create professional videos with realistic AI avatars and voices in 140+ languages.',
+        features: [
+            '120+ AI avatars',
+            '140+ languages & accents',
+            'Text-to-speech with lip sync',
+            'Customizable templates',
+            'Team collaboration',
+            'API integration',
+            'Brand kits'
+        ],
+        link: 'https://www.synthesia.io',
+        pricing: 'Free trial, Personal $29/mo, Corporate $99/mo',
+        useCases: [
+            'Training & explainer videos',
+            'Marketing & sales content',
+            'Internal communications',
+            'Product demos',
+            'Localized content',
+            'Customer onboarding'
+        ],
+        pros: [
+            'No filming required',
+            'Multi-language support',
+            'Professional quality',
+            'Easy editing',
+            'Scalable for teams',
+            'Great templates'
+        ],
+        cons: [
+            'Subscription cost',
+            'Avatar customization limits',
+            'Render times',
+            'Less creative than generative AI',
+            'Enterprise focus'
+        ],
+        alternatives: [
+            'HeyGen',
+            'Elai.io',
+            'Colossyan',
+            'Runway ML',
+            'DeepBrain AI'
+        ],
+        averageRating: 4.7,
+        reviewCount: 45,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
@@ -430,7 +480,8 @@ const categories = [
     'Writing',
     'Productivity',
     'Automation',
-    'Research'
+    'Research',
+    'Video AI'
 ];
 }),
 "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
