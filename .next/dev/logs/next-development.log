@@ -407,3 +407,165 @@ The export tools was not found in module [project]/Documents/My Projects/Guide-A
 The module has no exports at all.
 All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
 [00:01:24.162] Server  LOG     ✓ Compiled in 55ms
+[00:04:37.910] Server  LOG     ✓ Compiled in 58ms
+[00:04:38.641] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+[00:04:53.640] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+[00:04:54.641] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+[00:08:15.208] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Server Component]
+
+
+[00:08:15.420] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+[00:08:15.539] Browser ERROR   uncaughtError: Error: ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+
+
+[00:08:15.710] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+[00:08:15.710] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Client Component Browser]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Client Component SSR]
+    ./Documents/My Projects/Guide-AI/app/tools/page.tsx [Server Component]
+[00:08:15.710] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:392:4
+Parsing ecmascript source code failed
+  390 |     lastUpdated: 'Today'
+  391 |   },
+> 392 |   {\n    id: 'cursor',\n    name: 'Cursor AI',\n    category: 'Writing',\n    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',\n    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],\n    link: 'https://cursor.com',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],\n    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],\n    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],\n    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],\n    averageRating: 4.7,\n    reviewCount: 56,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  393 |   'AI Assistants',
+  394 |   'Writing',
+  395 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+[00:09:28.055] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

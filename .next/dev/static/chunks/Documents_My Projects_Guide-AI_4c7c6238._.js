@@ -668,6 +668,50 @@ const tools = [
         averageRating: 4.7,
         reviewCount: 56,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'codeium',
+        name: 'Codeium',
+        category: 'Writing',
+        description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',
+        features: [
+            'Fast autocomplete',
+            'AI chat',
+            '70+ languages',
+            'Team collaboration',
+            'Self-hosted option'
+        ],
+        link: 'https://codeium.com',
+        pricing: 'Free for individuals, Enterprise custom',
+        useCases: [
+            'Code acceleration',
+            'Team development',
+            'Learning coding',
+            'Legacy codebases',
+            'Cross-platform'
+        ],
+        pros: [
+            'Completely free',
+            'Fast & lightweight',
+            'Privacy-focused',
+            'Multi-IDE support',
+            'No limits'
+        ],
+        cons: [
+            'Less context-aware',
+            'Basic chat features',
+            'Enterprise features paid',
+            'Newer product'
+        ],
+        alternatives: [
+            'GitHub Copilot',
+            'Tabnine',
+            'Cursor',
+            'Amazon CodeWhisperer'
+        ],
+        averageRating: 4.6,
+        reviewCount: 89,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
