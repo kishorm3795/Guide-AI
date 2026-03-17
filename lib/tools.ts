@@ -420,6 +420,22 @@ export const tools: Tool[] = [
     averageRating: 4.6,
     reviewCount: 89,
     lastUpdated: 'Today'
+  },
+  {
+    id: 'replit-ghostwriter',
+    name: 'Replit Ghostwriter',
+    category: 'Writing',
+    description: "Replit's AI coding assistant for generating, debugging, and explaining code directly in the browser IDE.",
+    features: ['Code generation', 'Debugging assistance', 'Code explanation', 'Live collaboration', '70+ languages'],
+    link: 'https://replit.com/ai',
+    pricing: 'Free tier, Pro $20/month',
+    useCases: ['Rapid prototyping', 'Learning to code', 'Pair programming', 'Team collaboration', 'Online tutorials'],
+    pros: ['Browser-based', 'Real-time collaboration', 'Great for learning', 'Fast setup', 'Integrated environment'],
+    cons: ['Replit ecosystem', 'Limited free usage', 'Performance on large projects', 'Internet required'],
+    alternatives: ['GitHub Copilot', 'Cursor', 'Codeium', 'Replit Agent'],
+    averageRating: 4.5,
+    reviewCount: 67,
+    lastUpdated: 'Today'
   }
 ];
 

@@ -569,3 +569,22 @@ Import trace:
     ./Documents/My Projects/Guide-AI/lib/tools.ts
     ./Documents/My Projects/Guide-AI/app/page.tsx
 [00:09:28.055] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:40.785] Server  LOG     ✓ Compiled in 46ms
+[00:29:40.954] Browser ERROR   ./Documents/My Projects/Guide-AI/lib/tools.ts:408:4
+Parsing ecmascript source code failed
+  406 |     lastUpdated: 'Today'
+  407 |   },
+> 408 |   {\n    id: 'codeium',\n    name: 'Codeium',\n    category: 'Writing',\n    description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',\n    features: ['Fast autocomplete', 'AI chat', '70+ languages', 'Team collaboration', 'Self-hosted option'],\n    link: 'https://codeium.com',\n    pricing: 'Free for individuals, Enterprise custom',\n    useCases: ['Code acceleration', 'Team development', 'Learning coding', 'Legacy codebases', 'Cross-platform'],\n    pros: ['Completely free', 'Fast & lightweight', 'Privacy-focused', 'Multi-IDE support', 'No limits'],\n    cons: ['Less context-aware', 'Basic chat features', 'Enterprise features paid', 'Newer product'],\n    alternatives: ['GitHub Copilot', 'Tabnine', 'Cursor', 'Amazon CodeWhisperer'],\n    averageRating: 4.6,\n    reviewCount: 89,\n    lastUpdated: 'Today'\n  },\n  {\n    id: 'replit-ghostwriter',\n    name: 'Replit Ghostwriter',\n    category: 'Writing',\n    description: 'Replit\\'s AI coding assistant for generating, debugging, and explaining code directly in the browser IDE.',\n    features: ['Code generation', 'Debugging assistance', 'Code explanation', 'Live collaboration', '70+ languages'],\n    link: 'https://replit.com/ai',\n    pricing: 'Free tier, Pro $20/month',\n    useCases: ['Rapid prototyping', 'Learning to code', 'Pair programming', 'Team collaboration', 'Online tutorials'],\n    pros: ['Browser-based', 'Real-time collaboration', 'Great for learning', 'Fast setup', 'Integrated environment'],\n    cons: ['Replit ecosystem', 'Limited free usage', 'Performance on large projects', 'Internet required'],\n    alternatives: ['GitHub Copilot', 'Cursor', 'Codeium', 'Replit Agent'],\n    averageRating: 4.5,\n    reviewCount: 67,\n    lastUpdated: 'Today'\n  }\n];\n\nexport const categories = [
+      |    ^
+  409 |   'AI Assistants',
+  410 |   'Writing',
+  411 |   'Productivity',
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./Documents/My Projects/Guide-AI/lib/tools.ts
+    ./Documents/My Projects/Guide-AI/app/page.tsx
+[00:31:08.170] Server  LOG     ✓ Compiled in 109ms
+[00:32:59.020] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
