@@ -670,6 +670,50 @@ const tools = [
         averageRating: 4.5,
         reviewCount: 67,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'leonardo-ai',
+        name: 'Leonardo AI',
+        category: 'Automation',
+        description: 'Advanced AI image generation platform popular for game assets, characters, and concept art.',
+        features: [
+            'Game asset generation',
+            'Character design',
+            'Style training',
+            'Image editing',
+            'Prompt enhancement'
+        ],
+        link: 'https://leonardo.ai',
+        pricing: 'Free tier, Pro $12/month',
+        useCases: [
+            'Game development',
+            'Concept art',
+            'NFT creation',
+            'Marketing visuals',
+            'Product mockups'
+        ],
+        pros: [
+            'Game asset optimized',
+            'High quality',
+            'Fast generation',
+            'Style consistency',
+            'Community models'
+        ],
+        cons: [
+            'Credit system',
+            'Learning curve',
+            'Queue times',
+            'Watermarks on free'
+        ],
+        alternatives: [
+            'Midjourney',
+            'Stable Diffusion',
+            'DALL-E 3',
+            'Runway ML'
+        ],
+        averageRating: 4.6,
+        reviewCount: 123,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
