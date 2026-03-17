@@ -3234,8 +3234,20 @@ function AppContainer({ children }) {
                                         "loader": ("TURBOPACK compile-time value", "default"),
                                         "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
                                         "unoptimized": ("TURBOPACK compile-time value", false),
-                                        "domains": ("TURBOPACK compile-time value", []),
-                                        "remotePatterns": ("TURBOPACK compile-time value", []),
+                                        "domains": ("TURBOPACK compile-time value", [
+                                            ("TURBOPACK compile-time value", "chat.openai.com"),
+                                            ("TURBOPACK compile-time value", "notion.so"),
+                                            ("TURBOPACK compile-time value", "github.com"),
+                                            ("TURBOPACK compile-time value", "midjourney.com"),
+                                            ("TURBOPACK compile-time value", "perplexity.ai"),
+                                            ("TURBOPACK compile-time value", "yourdomain.com")
+                                        ]),
+                                        "remotePatterns": ("TURBOPACK compile-time value", [
+                                            ("TURBOPACK compile-time value", {
+                                                "protocol": ("TURBOPACK compile-time value", "https"),
+                                                "hostname": ("TURBOPACK compile-time value", "**")
+                                            })
+                                        ]),
                                         "localPatterns": ("TURBOPACK compile-time value", [
                                             ("TURBOPACK compile-time value", {
                                                 "pathname": ("TURBOPACK compile-time value", "**"),

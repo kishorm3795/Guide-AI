@@ -1,6 +1,409 @@
-[00:00:01.964] Server  LOG     ✓ Ready in 1615ms
-[00:01:40.322] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:05.289] Server  LOG     ✓ Compiled in 65ms
-[00:05:48.743] Server  LOG     ✓ Compiled in 23ms
-[00:09:27.101] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:00.496] Server  LOG     ✓ Compiled in 25ms
+[00:00:01.300] Server  LOG     ✓ Ready in 897ms
+[00:00:01.302] Server  WARN    ⚠ Cross origin request detected from 192.168.31.149 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:02.192] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.117] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.127] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.137] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.143] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.145] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.147] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.149] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.150] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.153] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.262] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.285] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.306] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.310] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.312] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.316] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.318] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.320] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.324] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.326] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.328] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.331] Server  ERROR   ⨯ ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:10.640] Browser ERROR   ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Module not found: Can't resolve '../lib/tools'
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:06.641] Browser ERROR   ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Export categories doesn't exist in target module
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+The export categories was not found in module [project]/Documents/My Projects/Guide-AI/lib/tools.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:06.641] Browser ERROR   ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Export tools doesn't exist in target module
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+The export tools was not found in module [project]/Documents/My Projects/Guide-AI/lib/tools.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:06.641] Browser ERROR   ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Export categories doesn't exist in target module
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+The export categories was not found in module [project]/Documents/My Projects/Guide-AI/lib/tools.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:06.641] Browser ERROR   ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Export tools doesn't exist in target module
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+The export tools was not found in module [project]/Documents/My Projects/Guide-AI/lib/tools.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:06.641] Browser ERROR   ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Export categories doesn't exist in target module
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+The export categories was not found in module [project]/Documents/My Projects/Guide-AI/lib/tools.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:06.641] Browser ERROR   ./Documents/My Projects/Guide-AI/app/page.tsx:3:1
+Export tools doesn't exist in target module
+  1 | import { Metadata } from 'next';
+  2 | import Link from 'next/link';
+> 3 | import { tools, categories } from '../lib/tools';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import AIRecommendation from './components/AIRecommendation';
+  5 |
+  6 | export async function generateMetadata(): Promise<Metadata> {
+
+The export tools was not found in module [project]/Documents/My Projects/Guide-AI/lib/tools.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:01:24.162] Server  LOG     ✓ Compiled in 55ms

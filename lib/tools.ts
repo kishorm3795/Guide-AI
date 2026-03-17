@@ -103,7 +103,7 @@ export const tools: Tool[] = [
     description: "Google's powerful multimodal AI model for advanced text, code, image understanding, and reasoning.",
     features: [
       'Multimodal (text, images, code)',
-      'Advanced reasoning capabilities', 
+      'Advanced reasoning capabilities',
       '1M token context window',
       'Google ecosystem integration',
       'Function calling & plugins'
@@ -388,11 +388,24 @@ export const tools: Tool[] = [
     averageRating: 4.6,
     reviewCount: 134,
     lastUpdated: 'Today'
+  },
+  {
+    id: 'cursor',
+    name: 'Cursor AI',
+    category: 'Writing',
+    description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',
+    features: ['AI autocomplete', 'Chat sidebar', 'Codebase Q&A', 'Inline edits', 'Composer mode'],
+    link: 'https://cursor.com',
+    pricing: 'Free tier, Pro $20/month',
+    useCases: ['Full-stack development', 'Code refactoring', 'Debugging', 'Learning to code', 'Rapid prototyping'],
+    pros: ['VS Code familiar', 'Context-aware AI', 'Multi-file edits', 'Fast performance'],
+    cons: ['Learning curve', 'Pro features paywalled', 'Desktop only', 'Privacy concerns'],
+    alternatives: ['GitHub Copilot', 'Codeium', 'Tabnine', 'Zed + AI'],
+    averageRating: 4.7,
+    reviewCount: 56,
+    lastUpdated: 'Today'
   }
 ];
-
-
-
 
 export const categories = [
   'AI Assistants',
