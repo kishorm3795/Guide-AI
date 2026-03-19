@@ -11,6 +11,7 @@
 - **Ideogram** (text-in-images specialist, Automation cat)
 - **Stable Diffusion** (open-source dev favorite, Automation cat)
 - **Luma AI** (realistic scenes/video, Video AI cat)
+- **HeyGen** (talking avatar videos, Video AI cat)
 
 **📱 Current Task: Mobile Header Implementation**
 

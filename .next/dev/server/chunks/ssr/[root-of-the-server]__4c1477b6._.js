@@ -859,6 +859,56 @@ const tools = [
         averageRating: 4.6,
         reviewCount: 134,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'heygen',
+        name: 'HeyGen',
+        category: 'Video AI',
+        description: 'AI video platform for creating talking avatar videos from text scripts with 100+ languages and custom avatars.',
+        features: [
+            'Talking avatars',
+            '100+ languages/voices',
+            'Text-to-video',
+            'Custom avatar creation',
+            'Lip sync perfection',
+            'API & templates',
+            'Brand kits'
+        ],
+        link: 'https://www.heygen.com',
+        pricing: 'Free tier, Creator $24/mo, Business $89/mo',
+        useCases: [
+            'Explainer videos',
+            'Product demos',
+            'Social media content',
+            'Training videos',
+            'Sales pitches',
+            'Multilingual marketing'
+        ],
+        pros: [
+            'Perfect lip sync',
+            'Multi-language support',
+            'Custom avatars',
+            'Fast turnaround',
+            'Professional templates',
+            'Great API'
+        ],
+        cons: [
+            'Subscription required',
+            'Avatar limits on free',
+            'Render queues',
+            'Less creative flexibility',
+            'Watermarks on free'
+        ],
+        alternatives: [
+            'Synthesia',
+            'Elai.io',
+            'Colossyan',
+            'DeepBrain',
+            'Runway ML'
+        ],
+        averageRating: 4.7,
+        reviewCount: 210,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
