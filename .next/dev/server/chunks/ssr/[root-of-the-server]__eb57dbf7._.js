@@ -255,6 +255,512 @@ const tools = [
         averageRating: 4.5,
         reviewCount: 89,
         lastUpdated: '1 day ago'
+    },
+    {
+        id: 'claude',
+        name: 'Claude AI',
+        category: 'AI Assistants',
+        description: "Anthropic's safe and helpful AI assistant with superior reasoning and long context understanding.",
+        features: [
+            'Superior reasoning & coding',
+            '200K token context window',
+            'Constitutional AI safety',
+            'Projects & Artifacts',
+            'API & integrations'
+        ],
+        link: 'https://claude.ai',
+        pricing: 'Free tier, Pro $20/month, Team $30/user/month',
+        useCases: [
+            'Advanced coding & debugging',
+            'Complex analysis tasks',
+            'Long document processing',
+            'Creative writing',
+            'Enterprise AI workflows'
+        ],
+        pros: [
+            'Best coding capabilities',
+            'Long context handling',
+            'Safety aligned',
+            'Fast responses',
+            'Great for complex tasks'
+        ],
+        cons: [
+            'Rate limits on free tier',
+            'No image generation',
+            'Anthropic ecosystem',
+            'No real-time web access'
+        ],
+        alternatives: [
+            'ChatGPT',
+            'Gemini',
+            'Grok'
+        ],
+        averageRating: 4.8,
+        reviewCount: 156,
+        lastUpdated: '2 days ago'
+    },
+    {
+        id: 'runwayml',
+        name: 'Runway ML',
+        category: 'Video AI',
+        description: 'Advanced AI video generation and editing platform with Gen-3 Alpha model.',
+        features: [
+            'Text-to-video generation',
+            'Image-to-video',
+            'Video-to-video',
+            'Motion brush',
+            'Lip sync',
+            'Real-time editing'
+        ],
+        link: 'https://runwayml.com',
+        pricing: 'Free tier, Standard $15/mo, Pro $35/mo',
+        useCases: [
+            'Marketing videos',
+            'Social media content',
+            'Film & TV production',
+            'Product demos',
+            'Creative storytelling'
+        ],
+        pros: [
+            'Best video quality',
+            'Advanced editing tools',
+            'Real-time preview',
+            'Professional workflows',
+            'Regular model updates'
+        ],
+        cons: [
+            'Credit-based system',
+            'High compute costs',
+            'Learning curve',
+            'Watermarks on free'
+        ],
+        alternatives: [
+            'Sora',
+            'Pika Labs',
+            'Luma AI',
+            'Kling AI'
+        ],
+        averageRating: 4.6,
+        reviewCount: 112,
+        lastUpdated: '1 day ago'
+    },
+    {
+        id: 'synthesia',
+        name: 'Synthesia',
+        category: 'Video AI',
+        description: 'AI video platform that lets you create professional videos with realistic AI avatars and voices in 140+ languages.',
+        features: [
+            '120+ AI avatars',
+            '140+ languages & accents',
+            'Text-to-speech with lip sync',
+            'Customizable templates',
+            'Team collaboration',
+            'API integration',
+            'Brand kits'
+        ],
+        link: 'https://www.synthesia.io',
+        pricing: 'Free trial, Personal $29/mo, Corporate $99/mo',
+        useCases: [
+            'Training & explainer videos',
+            'Marketing & sales content',
+            'Internal communications',
+            'Product demos',
+            'Localized content',
+            'Customer onboarding'
+        ],
+        pros: [
+            'No filming required',
+            'Multi-language support',
+            'Professional quality',
+            'Easy editing',
+            'Scalable for teams',
+            'Great templates'
+        ],
+        cons: [
+            'Subscription cost',
+            'Avatar customization limits',
+            'Render times',
+            'Less creative than generative AI',
+            'Enterprise focus'
+        ],
+        alternatives: [
+            'HeyGen',
+            'Elai.io',
+            'Colossyan',
+            'Runway ML',
+            'DeepBrain AI'
+        ],
+        averageRating: 4.7,
+        reviewCount: 45,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'microsoft-copilot',
+        name: 'Microsoft Copilot',
+        category: 'AI Assistants',
+        description: "Microsoft's everyday AI companion powered by GPT-4o, integrated across Windows, Edge, Bing, Office 365, and more.",
+        features: [
+            'GPT-4o model',
+            'Real-time web access (Bing)',
+            'Image generation (Designer)',
+            'Microsoft 365 integration',
+            'Voice conversations',
+            'Custom GPTs (Copilot Studio)',
+            'Mobile & desktop apps'
+        ],
+        link: 'https://copilot.microsoft.com',
+        pricing: 'Free basic, Pro $20/user/month, Enterprise custom',
+        useCases: [
+            'Productivity (Word, Excel, PPT)',
+            'Web research & summaries',
+            'Code assistance (VS Code)',
+            'Email & meeting summaries',
+            'Image generation',
+            'Customer support'
+        ],
+        pros: [
+            'Deep Microsoft integration',
+            'Free tier powerful',
+            'Multi-modal (text/image)',
+            'Enterprise security',
+            'Real-time information',
+            'Mobile apps'
+        ],
+        cons: [
+            'Microsoft ecosystem lock-in',
+            'Privacy concerns',
+            'Pro features paywalled',
+            'Slower than dedicated assistants',
+            'Limited customization'
+        ],
+        alternatives: [
+            'ChatGPT',
+            'Gemini',
+            'Claude',
+            'Perplexity'
+        ],
+        averageRating: 4.4,
+        reviewCount: 78,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'character-ai',
+        name: 'Character.AI',
+        category: 'AI Assistants',
+        description: 'Create and chat with customizable AI characters, from historical figures to fictional personalities and custom creations.',
+        features: [
+            'Millions of user-created characters',
+            'Role-playing conversations',
+            'Character customization',
+            'Group chats',
+            'Voice calls',
+            'Mobile apps',
+            'Community sharing'
+        ],
+        link: 'https://character.ai',
+        pricing: 'Free with limits, c.ai+ $9.99/month',
+        useCases: [
+            'Role-playing & storytelling',
+            'Language practice',
+            'Character development',
+            'Entertainment',
+            'Creative writing inspiration',
+            'Mental health companion'
+        ],
+        pros: [
+            'Huge character variety',
+            'Highly engaging conversations',
+            'Free tier generous',
+            'Community-driven',
+            'Voice interaction',
+            'Fun & creative'
+        ],
+        cons: [
+            'Content moderation issues',
+            'Memory limitations',
+            'Paywall for priority access',
+            'Can be repetitive',
+            'Privacy concerns with user data'
+        ],
+        alternatives: [
+            'ChatGPT',
+            'Poe.com',
+            'Janitor AI',
+            'Crushon AI'
+        ],
+        averageRating: 4.5,
+        reviewCount: 189,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'poe',
+        name: 'Poe',
+        category: 'AI Assistants',
+        description: 'Access multiple AI models in one place - GPT-4o, Claude 3.5, Gemini, Llama, and more with custom bots.',
+        features: [
+            '20+ AI models',
+            'Custom bot creation',
+            'Fast model switching',
+            'Unlimited free messages (slower)',
+            'Prompt library',
+            'Mobile app',
+            'API access'
+        ],
+        link: 'https://poe.com',
+        pricing: 'Free unlimited (slow), $20/month for priority',
+        useCases: [
+            'Model comparison',
+            'Custom AI assistants',
+            'Rapid testing',
+            'Multi-model workflows',
+            'Research across models'
+        ],
+        pros: [
+            'All models in one place',
+            'Custom bots easy',
+            'Free tier usable',
+            'Fast switching',
+            'Great for testing',
+            'Regular new models'
+        ],
+        cons: [
+            'Free tier slower',
+            'Message limits on premium models',
+            'Less polished UI',
+            'Dependency on Quora',
+            'Bot quality varies'
+        ],
+        alternatives: [
+            'ChatGPT',
+            'Perplexity',
+            'Groq',
+            'You.com'
+        ],
+        averageRating: 4.6,
+        reviewCount: 134,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'cursor',
+        name: 'Cursor AI',
+        category: 'Writing',
+        description: 'AI-powered code editor built on VS Code with GPT-4 integration for faster coding.',
+        features: [
+            'AI autocomplete',
+            'Chat sidebar',
+            'Codebase Q&A',
+            'Inline edits',
+            'Composer mode'
+        ],
+        link: 'https://cursor.com',
+        pricing: 'Free tier, Pro $20/month',
+        useCases: [
+            'Full-stack development',
+            'Code refactoring',
+            'Debugging',
+            'Learning to code',
+            'Rapid prototyping'
+        ],
+        pros: [
+            'VS Code familiar',
+            'Context-aware AI',
+            'Multi-file edits',
+            'Fast performance'
+        ],
+        cons: [
+            'Learning curve',
+            'Pro features paywalled',
+            'Desktop only',
+            'Privacy concerns'
+        ],
+        alternatives: [
+            'GitHub Copilot',
+            'Codeium',
+            'Tabnine',
+            'Zed + AI'
+        ],
+        averageRating: 4.7,
+        reviewCount: 56,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'codeium',
+        name: 'Codeium',
+        category: 'Writing',
+        description: 'Free AI code completion and chat tool. Copilot alternative for 70+ languages across IDEs.',
+        features: [
+            'Fast autocomplete',
+            'AI chat',
+            '70+ languages',
+            'Team collaboration',
+            'Self-hosted option'
+        ],
+        link: 'https://codeium.com',
+        pricing: 'Free for individuals, Enterprise custom',
+        useCases: [
+            'Code acceleration',
+            'Team development',
+            'Learning coding',
+            'Legacy codebases',
+            'Cross-platform'
+        ],
+        pros: [
+            'Completely free',
+            'Fast & lightweight',
+            'Privacy-focused',
+            'Multi-IDE support',
+            'No limits'
+        ],
+        cons: [
+            'Less context-aware',
+            'Basic chat features',
+            'Enterprise features paid',
+            'Newer product'
+        ],
+        alternatives: [
+            'GitHub Copilot',
+            'Tabnine',
+            'Cursor',
+            'Amazon CodeWhisperer'
+        ],
+        averageRating: 4.6,
+        reviewCount: 89,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'replit-ghostwriter',
+        name: 'Replit Ghostwriter',
+        category: 'Writing',
+        description: "Replit's AI coding assistant for generating, debugging, and explaining code directly in the browser IDE.",
+        features: [
+            'Code generation',
+            'Debugging assistance',
+            'Code explanation',
+            'Live collaboration',
+            '70+ languages'
+        ],
+        link: 'https://replit.com/ai',
+        pricing: 'Free tier, Pro $20/month',
+        useCases: [
+            'Rapid prototyping',
+            'Learning to code',
+            'Pair programming',
+            'Team collaboration',
+            'Online tutorials'
+        ],
+        pros: [
+            'Browser-based',
+            'Real-time collaboration',
+            'Great for learning',
+            'Fast setup',
+            'Integrated environment'
+        ],
+        cons: [
+            'Replit ecosystem',
+            'Limited free usage',
+            'Performance on large projects',
+            'Internet required'
+        ],
+        alternatives: [
+            'GitHub Copilot',
+            'Cursor',
+            'Codeium',
+            'Replit Agent'
+        ],
+        averageRating: 4.5,
+        reviewCount: 67,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'leonardo-ai',
+        name: 'Leonardo AI',
+        category: 'Automation',
+        description: 'Advanced AI image generation platform popular for game assets, characters, and concept art.',
+        features: [
+            'Game asset generation',
+            'Character design',
+            'Style training',
+            'Image editing',
+            'Prompt enhancement'
+        ],
+        link: 'https://leonardo.ai',
+        pricing: 'Free tier, Pro $12/month',
+        useCases: [
+            'Game development',
+            'Concept art',
+            'NFT creation',
+            'Marketing visuals',
+            'Product mockups'
+        ],
+        pros: [
+            'Game asset optimized',
+            'High quality',
+            'Fast generation',
+            'Style consistency',
+            'Community models'
+        ],
+        cons: [
+            'Credit system',
+            'Learning curve',
+            'Queue times',
+            'Watermarks on free'
+        ],
+        alternatives: [
+            'Midjourney',
+            'Stable Diffusion',
+            'DALL-E 3',
+            'Runway ML'
+        ],
+        averageRating: 4.6,
+        reviewCount: 123,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'ideogram',
+        name: 'Ideogram',
+        category: 'Automation',
+        description: 'AI image generation tool excelling at rendering legible text within images, logos, posters, and typography-focused designs.',
+        features: [
+            'Superior text rendering',
+            'Logo & poster generation',
+            'Magic Prompt enhancement',
+            'Remix & inpainting',
+            'High-res upscaling',
+            'Style references'
+        ],
+        link: 'https://ideogram.ai',
+        pricing: 'Free tier (40 slow images/day), Basic $7/month, Plus $20/month',
+        useCases: [
+            'Typography & logos',
+            'Social media graphics',
+            'Marketing materials',
+            'Meme generation',
+            'Branding mockups',
+            'Poster design'
+        ],
+        pros: [
+            'Best text-in-images quality',
+            'Fast generation',
+            'Generous free tier',
+            'Intuitive web interface',
+            'Regular model updates'
+        ],
+        cons: [
+            'Credit-based system',
+            'Limited styles vs competitors',
+            'Queue on free tier',
+            'No API (yet)'
+        ],
+        alternatives: [
+            'Midjourney',
+            'Leonardo AI',
+            'DALL-E 3',
+            'FLUX.1',
+            'Stable Diffusion'
+        ],
+        averageRating: 4.7,
+        reviewCount: 98,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
@@ -262,7 +768,8 @@ const categories = [
     'Writing',
     'Productivity',
     'Automation',
-    'Research'
+    'Research',
+    'Video AI'
 ];
 }),
 "[project]/Documents/My Projects/Guide-AI/app/components/ToolReviews.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {

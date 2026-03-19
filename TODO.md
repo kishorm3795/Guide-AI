@@ -1,7 +1,14 @@
-# Guide-AI Mobile Responsive Header Plan
+# Guide-AI TODOs
 
-**✅ Previous Features Complete**
-- Search & Filter, Reviews/Ratings, Favorites, Comparison, Newsletter
+**✅ COMPLETE FEATURES:**
+- Search & Filter on /tools
+- Reviews/Ratings (StarRating)
+- Favorites system
+- Comparison page
+- Newsletter signup
+- **Replit Ghostwriter** (added to lib/tools.ts, dynamic pages live)
+- Cursor AI + Codeium tools added
+- **Ideogram** (text-in-images specialist, Automation cat)
 
 **📱 Current Task: Mobile Header Implementation**
 
@@ -26,5 +33,5 @@
 - Update TODO.md after completion
 - No new dependencies needed
 
-Ready to implement? (Cursor AI + Codeium tools added ✅)
+**Next Pending:** Leonardo AI, SEO improvements, Social sharing
 

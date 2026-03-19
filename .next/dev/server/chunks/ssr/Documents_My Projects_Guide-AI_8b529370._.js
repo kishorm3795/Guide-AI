@@ -794,6 +794,53 @@ const tools = [
         averageRating: 4.6,
         reviewCount: 123,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'ideogram',
+        name: 'Ideogram',
+        category: 'Automation',
+        description: 'AI image generation tool excelling at rendering legible text within images, logos, posters, and typography-focused designs.',
+        features: [
+            'Superior text rendering',
+            'Logo & poster generation',
+            'Magic Prompt enhancement',
+            'Remix & inpainting',
+            'High-res upscaling',
+            'Style references'
+        ],
+        link: 'https://ideogram.ai',
+        pricing: 'Free tier (40 slow images/day), Basic $7/month, Plus $20/month',
+        useCases: [
+            'Typography & logos',
+            'Social media graphics',
+            'Marketing materials',
+            'Meme generation',
+            'Branding mockups',
+            'Poster design'
+        ],
+        pros: [
+            'Best text-in-images quality',
+            'Fast generation',
+            'Generous free tier',
+            'Intuitive web interface',
+            'Regular model updates'
+        ],
+        cons: [
+            'Credit-based system',
+            'Limited styles vs competitors',
+            'Queue on free tier',
+            'No API (yet)'
+        ],
+        alternatives: [
+            'Midjourney',
+            'Leonardo AI',
+            'DALL-E 3',
+            'FLUX.1',
+            'Stable Diffusion'
+        ],
+        averageRating: 4.7,
+        reviewCount: 98,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
