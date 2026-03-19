@@ -536,6 +536,49 @@ export const tools: Tool[] = [
     averageRating: 4.8,
     reviewCount: 456,
     lastUpdated: 'Today'
+  },
+  {
+    id: 'luma-ai',
+    name: 'Luma AI',
+    category: 'Video AI',
+    description: 'AI platform generating hyper-realistic 3D scenes, video from images/text, and lifelike animations.',
+    features: [
+      'Image-to-video Dream Machine',
+      'Text-to-video',
+      '3D scene generation',
+      'Flythroughs & orbits',
+      'Realistic motion',
+      'High-res outputs'
+    ],
+    link: 'https://lumalabs.ai',
+    pricing: 'Free tier limited, Pro $29/month, Enterprise custom',
+    useCases: [
+      'Product videos',
+      'Architectural viz',
+      'E-commerce visuals',
+      'Social media reels',
+      'Film pre-vis',
+      'Marketing demos'
+    ],
+    pros: [
+      'Hyper-realistic motion',
+      'Fast generation',
+      'Intuitive interface',
+      'Great for 3D from 2D',
+      'Consistent characters',
+      'Professional quality'
+    ],
+    cons: [
+      'Waitlists for heavy use',
+      'Credit system',
+      'Limited customization',
+      'Pro features expensive',
+      'Early stage product'
+    ],
+    alternatives: ['Runway ML', 'Synthesia', 'Kling AI', 'Pika Labs', 'Luma Dream Machine'],
+    averageRating: 4.6,
+    reviewCount: 134,
+    lastUpdated: 'Today'
   }
 ];
 

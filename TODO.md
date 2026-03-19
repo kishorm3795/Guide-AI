@@ -10,6 +10,7 @@
 - Cursor AI + Codeium tools added
 - **Ideogram** (text-in-images specialist, Automation cat)
 - **Stable Diffusion** (open-source dev favorite, Automation cat)
+- **Luma AI** (realistic scenes/video, Video AI cat)
 
 **📱 Current Task: Mobile Header Implementation**
 
