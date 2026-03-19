@@ -180,6 +180,56 @@ const tools = [
         lastUpdated: '1 week ago'
     },
     {
+        id: 'otter-ai',
+        name: 'Otter.ai',
+        category: 'Productivity',
+        description: 'AI meeting assistant that records, transcribes, and summarizes meetings, interviews, and lectures in real-time.',
+        features: [
+            'Real-time transcription',
+            'Speaker identification',
+            'Automatic summaries',
+            'Action item extraction',
+            'Searchable notes',
+            'Zoom/Teams/Google Meet integration',
+            'Collaboration sharing'
+        ],
+        link: 'https://otter.ai',
+        pricing: 'Free (600 min/mo), Pro $10/user/month, Business $20/user/month',
+        useCases: [
+            'Meeting notes',
+            'Interviews & podcasts',
+            'Lecture capture',
+            'Team collaboration',
+            'Customer calls',
+            'Conference recording'
+        ],
+        pros: [
+            'Accurate transcription',
+            'Real-time collaboration',
+            'Smart summaries',
+            'Multi-platform integration',
+            'Searchable archive',
+            'Mobile apps'
+        ],
+        cons: [
+            'Minute limits free tier',
+            'Privacy concerns',
+            'Speaker ID accuracy',
+            'Internet required',
+            'Accent challenges'
+        ],
+        alternatives: [
+            'Fireflies.ai',
+            'Gong',
+            'Zoom AI Companion',
+            'Fathom',
+            'Tactiq'
+        ],
+        averageRating: 4.5,
+        reviewCount: 245,
+        lastUpdated: 'Today'
+    },
+    {
         id: 'github-copilot',
         name: 'GitHub Copilot',
         category: 'Writing',
@@ -939,6 +989,156 @@ const tools = [
         averageRating: 4.6,
         reviewCount: 134,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'heygen',
+        name: 'HeyGen',
+        category: 'Video AI',
+        description: 'AI video platform for creating talking avatar videos from text scripts with 100+ languages and custom avatars.',
+        features: [
+            'Talking avatars',
+            '100+ languages/voices',
+            'Text-to-video',
+            'Custom avatar creation',
+            'Lip sync perfection',
+            'API & templates',
+            'Brand kits'
+        ],
+        link: 'https://www.heygen.com',
+        pricing: 'Free tier, Creator $24/mo, Business $89/mo',
+        useCases: [
+            'Explainer videos',
+            'Product demos',
+            'Social media content',
+            'Training videos',
+            'Sales pitches',
+            'Multilingual marketing'
+        ],
+        pros: [
+            'Perfect lip sync',
+            'Multi-language support',
+            'Custom avatars',
+            'Fast turnaround',
+            'Professional templates',
+            'Great API'
+        ],
+        cons: [
+            'Subscription required',
+            'Avatar limits on free',
+            'Render queues',
+            'Less creative flexibility',
+            'Watermarks on free'
+        ],
+        alternatives: [
+            'Synthesia',
+            'Elai.io',
+            'Colossyan',
+            'DeepBrain',
+            'Runway ML'
+        ],
+        averageRating: 4.7,
+        reviewCount: 210,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'suno-ai',
+        name: 'Suno AI',
+        category: 'Audio AI',
+        description: 'AI music generation platform creating full songs with vocals, lyrics, and instrumentation from text prompts.',
+        features: [
+            'Text-to-song generation',
+            'Custom lyrics + style',
+            'Full 2-minute songs',
+            'Multiple genres',
+            'Vocal generation',
+            'Extend & remix',
+            'Commercial rights'
+        ],
+        link: 'https://suno.ai',
+        pricing: 'Free tier (50 credits/day), Pro $10/month, Premier $30/month',
+        useCases: [
+            'Content creators',
+            'Social media music',
+            'Podcasts & videos',
+            'Demo tracks',
+            'Personalized songs',
+            'Background music'
+        ],
+        pros: [
+            'Full songs from text',
+            'High quality vocals',
+            'Many genres/styles',
+            'Fast generation',
+            'Easy to use',
+            'Commercial use OK'
+        ],
+        cons: [
+            'Credit limits',
+            'Repetition in long tracks',
+            'Limited control',
+            'Pro for unlimited',
+            'Beta quality varies'
+        ],
+        alternatives: [
+            'Udio',
+            'MusicGen',
+            'Suno v3',
+            'AIVA',
+            'Boomy'
+        ],
+        averageRating: 4.6,
+        reviewCount: 289,
+        lastUpdated: 'Today'
+    },
+    {
+        id: 'udio',
+        name: 'Udio',
+        category: 'Audio AI',
+        description: 'High-quality AI music generation creating professional tracks, songs, and beats from text prompts with superior audio fidelity.',
+        features: [
+            'Advanced audio quality',
+            'Genre/style blending',
+            'Custom lyrics/melody',
+            'Vocal synthesis',
+            'Song extension',
+            'Stem separation',
+            'Pro mastering'
+        ],
+        link: 'https://www.udio.com',
+        pricing: 'Free tier limited, Pro $10/month, Pro+ $30/month',
+        useCases: [
+            'Music production',
+            'Beatmaking',
+            'Songwriting demos',
+            'Video soundtracks',
+            'Podcasts',
+            'Live performances'
+        ],
+        pros: [
+            'Superior sound quality',
+            'Musical coherence',
+            'Professional polish',
+            'Fast generation',
+            'Stem control',
+            'Artist-friendly'
+        ],
+        cons: [
+            'Credit system',
+            'Queue times peak',
+            'Limited free tier',
+            'Learning prompt curve',
+            'Beta vocals'
+        ],
+        alternatives: [
+            'Suno AI',
+            'MusicGen',
+            'AIVA',
+            'Soundraw',
+            'Mubert'
+        ],
+        averageRating: 4.8,
+        reviewCount: 367,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
@@ -947,7 +1147,8 @@ const categories = [
     'Productivity',
     'Automation',
     'Research',
-    'Video AI'
+    'Video AI',
+    'Audio AI'
 ];
 }),
 "[project]/Documents/My Projects/Guide-AI/app/tools/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {

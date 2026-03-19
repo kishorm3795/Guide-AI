@@ -49,6 +49,50 @@ export const tools: Tool[] = [
     lastUpdated: '1 week ago'
   },
   {
+    id: 'otter-ai',
+    name: 'Otter.ai',
+    category: 'Productivity',
+    description: 'AI meeting assistant that records, transcribes, and summarizes meetings, interviews, and lectures in real-time.',
+    features: [
+      'Real-time transcription',
+      'Speaker identification',
+      'Automatic summaries',
+      'Action item extraction',
+      'Searchable notes',
+      'Zoom/Teams/Google Meet integration',
+      'Collaboration sharing'
+    ],
+    link: 'https://otter.ai',
+    pricing: 'Free (600 min/mo), Pro $10/user/month, Business $20/user/month',
+    useCases: [
+      'Meeting notes',
+      'Interviews & podcasts',
+      'Lecture capture',
+      'Team collaboration',
+      'Customer calls',
+      'Conference recording'
+    ],
+    pros: [
+      'Accurate transcription',
+      'Real-time collaboration',
+      'Smart summaries',
+      'Multi-platform integration',
+      'Searchable archive',
+      'Mobile apps'
+    ],
+    cons: [
+      'Minute limits free tier',
+      'Privacy concerns',
+      'Speaker ID accuracy',
+      'Internet required',
+      'Accent challenges'
+    ],
+    alternatives: ['Fireflies.ai', 'Gong', 'Zoom AI Companion', 'Fathom', 'Tactiq'],
+    averageRating: 4.5,
+    reviewCount: 245,
+    lastUpdated: 'Today'
+  },
+  {
     id: 'github-copilot',
     name: 'GitHub Copilot',
     category: 'Writing',
