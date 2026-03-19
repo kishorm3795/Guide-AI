@@ -623,6 +623,50 @@ export const tools: Tool[] = [
     averageRating: 4.7,
     reviewCount: 210,
     lastUpdated: 'Today'
+  },
+  {
+    id: 'suno-ai',
+    name: 'Suno AI',
+    category: 'Audio AI',
+    description: 'AI music generation platform creating full songs with vocals, lyrics, and instrumentation from text prompts.',
+    features: [
+      'Text-to-song generation',
+      'Custom lyrics + style',
+      'Full 2-minute songs',
+      'Multiple genres',
+      'Vocal generation',
+      'Extend & remix',
+      'Commercial rights'
+    ],
+    link: 'https://suno.ai',
+    pricing: 'Free tier (50 credits/day), Pro $10/month, Premier $30/month',
+    useCases: [
+      'Content creators',
+      'Social media music',
+      'Podcasts & videos',
+      'Demo tracks',
+      'Personalized songs',
+      'Background music'
+    ],
+    pros: [
+      'Full songs from text',
+      'High quality vocals',
+      'Many genres/styles',
+      'Fast generation',
+      'Easy to use',
+      'Commercial use OK'
+    ],
+    cons: [
+      'Credit limits',
+      'Repetition in long tracks',
+      'Limited control',
+      'Pro for unlimited',
+      'Beta quality varies'
+    ],
+    alternatives: ['Udio', 'MusicGen', 'Suno v3', 'AIVA', 'Boomy'],
+    averageRating: 4.6,
+    reviewCount: 289,
+    lastUpdated: 'Today'
   }
 ];
 
@@ -632,6 +676,7 @@ export const categories = [
   'Productivity',
   'Automation',
   'Research',
-  'Video AI'
+  'Video AI',
+  'Audio AI'
 ];
 

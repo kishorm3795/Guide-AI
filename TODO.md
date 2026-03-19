@@ -12,6 +12,7 @@
 - **Stable Diffusion** (open-source dev favorite, Automation cat)
 - **Luma AI** (realistic scenes/video, Video AI cat)
 - **HeyGen** (talking avatar videos, Video AI cat)
+- **Suno AI** (text-to-song generation, new Audio AI cat)
 
 **📱 Current Task: Mobile Header Implementation**
 
