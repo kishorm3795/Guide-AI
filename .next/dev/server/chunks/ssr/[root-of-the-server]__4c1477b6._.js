@@ -761,6 +761,55 @@ const tools = [
         averageRating: 4.7,
         reviewCount: 98,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'stable-diffusion',
+        name: 'Stable Diffusion',
+        category: 'Automation',
+        description: 'Open-source text-to-image AI model widely used by developers for local image generation and fine-tuning.',
+        features: [
+            'Open source & self-hostable',
+            'Local GPU inference',
+            'LoRA fine-tuning',
+            'ControlNet extensions',
+            'Automatic1111 WebUI',
+            'Hugging Face integration'
+        ],
+        link: 'https://stability.ai/stable-diffusion',
+        pricing: 'Free (open source), hosted APIs from $0.002/image',
+        useCases: [
+            'Local AI image gen',
+            'Model fine-tuning',
+            'Research & experimentation',
+            'Custom datasets',
+            'Production pipelines',
+            'Privacy-sensitive apps'
+        ],
+        pros: [
+            'Completely free local use',
+            'Developer-friendly',
+            'Massive ecosystem',
+            'Hardware optimized',
+            'Community extensions',
+            'No usage limits'
+        ],
+        cons: [
+            'GPU required for speed',
+            'Setup complexity',
+            'Quality varies by model',
+            'No official easy UI',
+            'Rapidly evolving'
+        ],
+        alternatives: [
+            'Midjourney',
+            'DALL-E 3',
+            'Leonardo AI',
+            'FLUX.1',
+            'Ideogram'
+        ],
+        averageRating: 4.8,
+        reviewCount: 456,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [

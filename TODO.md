@@ -9,6 +9,7 @@
 - **Replit Ghostwriter** (added to lib/tools.ts, dynamic pages live)
 - Cursor AI + Codeium tools added
 - **Ideogram** (text-in-images specialist, Automation cat)
+- **Stable Diffusion** (open-source dev favorite, Automation cat)
 
 **📱 Current Task: Mobile Header Implementation**
 
