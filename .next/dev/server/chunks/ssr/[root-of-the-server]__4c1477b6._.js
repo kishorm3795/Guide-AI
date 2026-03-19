@@ -959,6 +959,56 @@ const tools = [
         averageRating: 4.6,
         reviewCount: 289,
         lastUpdated: 'Today'
+    },
+    {
+        id: 'udio',
+        name: 'Udio',
+        category: 'Audio AI',
+        description: 'High-quality AI music generation creating professional tracks, songs, and beats from text prompts with superior audio fidelity.',
+        features: [
+            'Advanced audio quality',
+            'Genre/style blending',
+            'Custom lyrics/melody',
+            'Vocal synthesis',
+            'Song extension',
+            'Stem separation',
+            'Pro mastering'
+        ],
+        link: 'https://www.udio.com',
+        pricing: 'Free tier limited, Pro $10/month, Pro+ $30/month',
+        useCases: [
+            'Music production',
+            'Beatmaking',
+            'Songwriting demos',
+            'Video soundtracks',
+            'Podcasts',
+            'Live performances'
+        ],
+        pros: [
+            'Superior sound quality',
+            'Musical coherence',
+            'Professional polish',
+            'Fast generation',
+            'Stem control',
+            'Artist-friendly'
+        ],
+        cons: [
+            'Credit system',
+            'Queue times peak',
+            'Limited free tier',
+            'Learning prompt curve',
+            'Beta vocals'
+        ],
+        alternatives: [
+            'Suno AI',
+            'MusicGen',
+            'AIVA',
+            'Soundraw',
+            'Mubert'
+        ],
+        averageRating: 4.8,
+        reviewCount: 367,
+        lastUpdated: 'Today'
     }
 ];
 const categories = [
