@@ -93,6 +93,50 @@ export const tools: Tool[] = [
     lastUpdated: 'Today'
   },
   {
+    id: 'tome-ai',
+    name: 'Tome AI',
+    category: 'Productivity',
+    description: 'AI-powered presentation tool that automatically builds beautiful slide decks from text prompts, outlines, or documents.',
+    features: [
+      'Text-to-presentation',
+      'AI layout & design',
+      'Narrative generation',
+      'Image integration',
+      'Real-time editing',
+      'Export PPT/PDF',
+      'Collaboration'
+    ],
+    link: 'https://tome.app',
+    pricing: 'Free tier, Pro $16/month, Team $24/user/month',
+    useCases: [
+      'Pitch decks',
+      'Sales presentations',
+      'Investor updates',
+      'Internal reports',
+      'Educational slides',
+      'Marketing materials'
+    ],
+    pros: [
+      'Instant beautiful decks',
+      'Smart layouts',
+      'Narrative focus',
+      'No design skills needed',
+      'Fast iteration',
+      'Modern templates'
+    ],
+    cons: [
+      'Limited customization',
+      'Pro for advanced features',
+      'Export limitations free',
+      'Learning prompt style',
+      'Internet only'
+    ],
+    alternatives: ['Beautiful.ai', 'Gamma.app', 'Plus AI', 'Canva Magic Studio', 'SlidesAI'],
+    averageRating: 4.6,
+    reviewCount: 156,
+    lastUpdated: 'Today'
+  },
+  {
     id: 'github-copilot',
     name: 'GitHub Copilot',
     category: 'Writing',

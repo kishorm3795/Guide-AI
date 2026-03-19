@@ -15,6 +15,7 @@
 - **Suno AI** (text-to-song generation, Audio AI cat)
 - **Udio** (high-quality music gen, Audio AI cat)
 - **Otter.ai** (meeting transcription, Productivity cat)
+- **Tome AI** (auto presentation builder, Productivity cat)
 
 **📱 Current Task: Mobile Header Implementation**
 
