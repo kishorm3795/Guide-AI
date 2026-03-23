@@ -747,14 +747,6 @@
     display: inline-flex;
   }
 
-  .table {
-    display: table;
-  }
-
-  .table\! {
-    display: table !important;
-  }
-
   .h-1\.5 {
     height: calc(var(--spacing) * 1.5);
   }
