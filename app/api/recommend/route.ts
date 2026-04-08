@@ -1,10 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
 
-// Initialize OpenAI client with API key from environment variables
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+export const dynamic = 'force-dynamic';
 
 // Available AI tools data to provide context to the AI
 const toolsContext = [
@@ -112,6 +109,14 @@ ${category ? `- Category: ${category}` : ''}
 
 Please recommend the best tools from your list that match these needs.`;
 
+    // Create OpenAI client only during request
+    if (!process.env.OPENAI_API_KEY) {
+      throw new Error('OPENAI_API_KEY not set');
+    }
+    const openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+
     // Call OpenAI API
     const completion = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
@@ -138,7 +143,6 @@ Please recommend the best tools from your list that match these needs.`;
     }
 
   } catch (error) {
-    console.error('Error calling OpenAI API:', error);
     
     if (error instanceof OpenAI.APIError) {
       if (error.status === 401) {

@@ -19,7 +19,7 @@ export default function FavoritesPage() {
         setFavoriteTools(favTools);
       }
     } catch (e) {
-      console.error('Favorites load error:', e);
+      // Ignore localStorage errors
     }
   }, []);
 
@@ -31,7 +31,7 @@ export default function FavoritesPage() {
       const newFavTools = tools.filter(tool => newFavorites.includes(tool.id));
       setFavoriteTools(newFavTools);
     } catch (e) {
-      console.error('Favorites update error:', e);
+      // Ignore localStorage errors
     }
   };
 

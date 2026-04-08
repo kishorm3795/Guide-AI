@@ -9,10 +9,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Here you would integrate with your email service (Mailchimp, EmailJS, etc.)
-    // For demo, we'll simulate success with console logging
-    console.log('Newsletter signup:', email);
-    
-    // In production, replace with real API call:
+    // For demo, simulate success (replace with real email service in production)
     // await fetch('YOUR_EMAIL_SERVICE_URL', { method: 'POST', body: JSON.stringify({ email }) });
     
     return NextResponse.json({ 
@@ -20,7 +17,6 @@ export async function POST(request: NextRequest) {
       message: 'Successfully subscribed! Welcome to AI Tools Guide updates.' 
     });
   } catch (error) {
-    console.error('Newsletter error:', error);
     return NextResponse.json({ error: 'Subscription failed. Try again.' }, { status: 500 });
   }
 }

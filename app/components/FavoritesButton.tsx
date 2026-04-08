@@ -22,7 +22,7 @@ export default function FavoritesButton({ tool, onToggle, className = '' }: Favo
         setIsFavorite(parsed.includes(tool.id));
       }
     } catch (e) {
-      console.error('Favorites load error:', e);
+      // Ignore localStorage errors
     }
   }, [tool.id]);
 
@@ -30,7 +30,7 @@ export default function FavoritesButton({ tool, onToggle, className = '' }: Favo
     try {
       localStorage.setItem('favorites', JSON.stringify(favorites));
     } catch (e) {
-      console.error('Favorites save error:', e);
+      // Ignore localStorage errors
     }
   }, [favorites]);
 

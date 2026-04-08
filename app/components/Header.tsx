@@ -2,11 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useFavoritesCount } from '../hooks/useFavorites';
 import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const favoritesCount = 0; // Static for now - add dynamic later if needed
+  const favoritesCount = useFavoritesCount();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
