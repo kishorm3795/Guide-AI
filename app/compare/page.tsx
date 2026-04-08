@@ -3,8 +3,7 @@
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { tools } from '../../lib/tools';
-// import StarRating from '../../components/StarRating';
-// import FavoritesButton from '../../components/FavoritesButton';
+import { Suspense } from 'react';
 
 interface ExtendedTool {
   id: string;
@@ -20,7 +19,7 @@ interface ExtendedTool {
   link: string;
 }
 
-export default function ComparePage() {
+function CompareContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   
@@ -224,6 +223,20 @@ export default function ComparePage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function ComparePage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gray-50 py-20 text-center">
+        <div className="animate-pulse">
+          <h1 className="text-2xl font-semibold text-gray-400">Loading comparison details...</h1>
+        </div>
+      </div>
+    }>
+      <CompareContent />
+    </Suspense>
   );
 }
 
