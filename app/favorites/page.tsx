@@ -1,39 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { tools } from '../../lib/tools';
 import FavoritesButton from '../components/FavoritesButton';
+import { useFavorites } from '../hooks/useFavorites';
 
 export default function FavoritesPage() {
-  const [favorites, setFavorites] = useState<string[]>([]);
-  const [favoriteTools, setFavoriteTools] = useState(tools);
-
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem('favorites');
-      if (saved) {
-        const ids = JSON.parse(saved) as string[];
-        setFavorites(ids);
-        const favTools = tools.filter(tool => ids.includes(tool.id));
-        setFavoriteTools(favTools);
-      }
-    } catch (e) {
-      // Ignore localStorage errors
-    }
-  }, []);
-
-  const updateFavorites = (toolId: string) => {
-    try {
-      const newFavorites = favorites.filter(id => id !== toolId);
-      localStorage.setItem('favorites', JSON.stringify(newFavorites));
-      setFavorites(newFavorites);
-      const newFavTools = tools.filter(tool => newFavorites.includes(tool.id));
-      setFavoriteTools(newFavTools);
-    } catch (e) {
-      // Ignore localStorage errors
-    }
-  };
+  const { favorites } = useFavorites();
+  const favoriteTools = tools.filter(tool => favorites.includes(tool.id));
 
   if (favorites.length === 0) {
     return (
@@ -74,7 +48,6 @@ export default function FavoritesPage() {
                 <h2 className="text-xl font-semibold text-gray-900 flex-1 pr-4">{tool.name}</h2>
                 <FavoritesButton 
                   tool={tool} 
-                  onToggle={() => updateFavorites(tool.id)}
                   className="flex-shrink-0" 
                 />
               </div>
@@ -102,4 +75,5 @@ export default function FavoritesPage() {
     </div>
   );
 }
+
 

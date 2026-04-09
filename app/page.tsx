@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { tools, categories } from '../lib/tools';
 import AIRecommendation from './components/AIRecommendation';
-
+import Newsletter from './components/Newsletter';
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'AI & Productivity Tools You Should Know - Best AI Tools Directory',
@@ -110,24 +110,10 @@ export default function Home() {
       </section>
 
       {/* Newsletter CTA */}
-      <section className="py-16 bg-blue-600">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Stay Updated</h2>
-          <p className="text-blue-100 mb-8">
-            Get the latest AI tool recommendations and productivity tips delivered to your inbox.
-          </p>
-          <div className="max-w-md mx-auto flex">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-l-lg border-0 focus:ring-2 focus:ring-blue-300"
-            />
-            <button className="bg-blue-800 text-white px-6 py-3 rounded-r-lg hover:bg-blue-900 transition-colors">
-              Subscribe
-            </button>
-          </div>
-        </div>
+      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+        <Newsletter />
       </section>
+
 
       {/* Structured Data - JSON-LD */}
       <script
