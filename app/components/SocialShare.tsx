@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { tools } from '../../lib/tools';
 
 interface SocialShareProps {
   toolId: string;

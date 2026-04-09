@@ -83,9 +83,9 @@ export default function ContactPage() {
                 <>
                   <h2 className="text-xl font-bold text-gray-900 mb-6 font-primary">Send a Message</h2>
                   <form onSubmit={handleSubmit} className="space-y-4">
-                    <div className="grid sm:grid-cols-2 gap-4">
+                    <div className="grid sm:grid-cols-2 gap-6">
                       <div>
-                        <label htmlFor="name" className="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">
+                        <label htmlFor="name" className="block text-sm font-bold text-gray-700 mb-2">
                           Name
                         </label>
                         <input
@@ -96,13 +96,13 @@ export default function ContactPage() {
                           onChange={handleChange}
                           required
                           placeholder="Your Name"
-                          className="w-full px-4 py-3 bg-gray-50 border border-transparent rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all"
+                          className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all text-gray-900 placeholder:text-gray-500"
                           disabled={status === 'submitting'}
                         />
                       </div>
 
                       <div>
-                        <label htmlFor="email" className="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">
+                        <label htmlFor="email" className="block text-sm font-bold text-gray-700 mb-2">
                           Email
                         </label>
                         <input
@@ -113,14 +113,14 @@ export default function ContactPage() {
                           onChange={handleChange}
                           required
                           placeholder="your@email.com"
-                          className="w-full px-4 py-3 bg-gray-50 border border-transparent rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all"
+                          className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all text-gray-900 placeholder:text-gray-500"
                           disabled={status === 'submitting'}
                         />
                       </div>
                     </div>
 
                     <div>
-                      <label htmlFor="subject" className="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">
+                      <label htmlFor="subject" className="block text-sm font-bold text-gray-700 mb-2">
                         Subject
                       </label>
                       <input
@@ -131,13 +131,13 @@ export default function ContactPage() {
                         onChange={handleChange}
                         required
                         placeholder="What is this regarding?"
-                        className="w-full px-4 py-3 bg-gray-50 border border-transparent rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all"
+                        className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all text-gray-900 placeholder:text-gray-500"
                         disabled={status === 'submitting'}
                       />
                     </div>
 
                     <div>
-                      <label htmlFor="message" className="block text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">
+                      <label htmlFor="message" className="block text-sm font-bold text-gray-700 mb-2">
                         Message
                       </label>
                       <textarea
@@ -148,7 +148,7 @@ export default function ContactPage() {
                         rows={5}
                         required
                         placeholder="Tell us what's on your mind..."
-                        className="w-full px-4 py-3 bg-gray-50 border border-transparent rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all"
+                        className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:bg-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 outline-none transition-all text-gray-900 placeholder:text-gray-500"
                         disabled={status === 'submitting'}
                       ></textarea>
                     </div>

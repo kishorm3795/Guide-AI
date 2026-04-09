@@ -41,7 +41,7 @@ function CompareContent() {
           <div className="text-7xl mb-6">⚖️</div>
           <h1 className="text-3xl font-bold text-gray-900 mb-4">No tools selected for comparison</h1>
           <p className="text-xl text-gray-600 mb-8">
-            Select tools from the tools page using checkboxes and click "Compare Selected".
+            Select tools from the tools page using checkboxes and click &quot;Compare Selected&quot;.
           </p>
           <Link
             href="/tools"

@@ -97,8 +97,8 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Why AI Tools Matter</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
             AI tools are revolutionizing how we work, learn, and create. They automate repetitive tasks,
-            enhance creativity, and provide insights that were previously impossible. Whether you're a
-            student, professional, or entrepreneur, there's an AI tool that can help you achieve more.
+            enhance creativity, and provide insights that were previously impossible. Whether you&apos;re a
+            student, professional, or entrepreneur, there&apos;s an AI tool that can help you achieve more.
           </p>
           <Link
             href="/about"

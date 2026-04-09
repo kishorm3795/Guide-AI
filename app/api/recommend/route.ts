@@ -134,7 +134,7 @@ Please recommend the best tools from your list that match these needs.`;
     try {
       const recommendations = JSON.parse(response);
       return NextResponse.json(recommendations);
-    } catch (parseError) {
+    } catch {
       // If JSON parsing fails, return the raw response
       return NextResponse.json({
         rawResponse: response,

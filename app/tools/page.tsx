@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import StarRating from '../components/StarRating';
@@ -11,26 +11,15 @@ export default function ToolsPage() {
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [filteredTools, setFilteredTools] = useState(tools);
   const [selectedForCompare, setSelectedForCompare] = useState<string[]>([]);
-
-  useEffect(() => {
-    let filtered = tools;
-
-    if (selectedCategory) {
-      filtered = filtered.filter(tool => tool.category === selectedCategory);
-    }
-
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase().trim();
-      filtered = filtered.filter(tool =>
-        tool.name.toLowerCase().includes(query) ||
-        tool.description.toLowerCase().includes(query)
-      );
-    }
-
-    setFilteredTools(filtered);
-  }, [searchQuery, selectedCategory]);
+  const filteredTools = (tools).filter(tool => {
+    const matchesCategory = !selectedCategory || tool.category === selectedCategory;
+    const matchesSearch = !searchQuery.trim() || (
+      tool.name.toLowerCase().includes(searchQuery.toLowerCase().trim()) ||
+      tool.description.toLowerCase().includes(searchQuery.toLowerCase().trim())
+    );
+    return matchesCategory && matchesSearch;
+  });
 
   const toggleCompare = (toolId: string) => {
     setSelectedForCompare(prev => {
@@ -138,27 +127,27 @@ export default function ToolsPage() {
 
                 <div className="flex justify-between items-start mb-4 mt-6">
                   <h2 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">{tool.name}</h2>
-                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg">
+                  <span className="text-xs font-bold text-blue-700 bg-blue-50 px-3 py-1.5 rounded-lg border border-blue-100 uppercase tracking-wide">
                     {tool.category}
                   </span>
                 </div>
-                <p className="text-gray-600 mb-6 line-clamp-2 h-12">{tool.description}</p>
+                <p className="text-gray-600 mb-6 line-clamp-2 h-12 leading-relaxed">{tool.description}</p>
                 
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center gap-2">
                     <StarRating rating={tool.averageRating} size="sm" readonly />
-                    <span className="text-xs text-gray-500 font-semibold">
-                      {tool.averageRating.toFixed(1)} <span className="text-gray-300 font-normal">({tool.reviewCount})</span>
+                    <span className="text-xs text-gray-700 font-bold">
+                      {tool.averageRating.toFixed(1)} <span className="text-gray-400 font-normal">({tool.reviewCount})</span>
                     </span>
                   </div>
                   
-                  <div className="flex items-center justify-between gap-4 pt-4 border-t border-gray-50">
+                  <div className="flex items-center justify-between gap-4 pt-4 border-t border-gray-100">
                     <FavoritesButton tool={tool} />
-                    <span className="text-sm font-medium text-gray-700">{tool.pricing}</span>
+                    <span className="text-sm font-bold text-gray-800">{tool.pricing}</span>
                     <div className="flex items-center gap-3">
                       <Link
                         href={`/tools/${tool.id}`}
-                        className="text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors"
+                        className="text-sm font-bold text-gray-600 hover:text-blue-600 transition-colors"
                       >
                         Details
                       </Link>
@@ -166,7 +155,7 @@ export default function ToolsPage() {
                         href={tool.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-gray-900 text-white text-sm font-bold px-4 py-2 rounded-xl hover:bg-blue-600 transition-all shadow-md hover:shadow-lg active:scale-95"
+                        className="bg-gray-900 text-white text-xs font-black px-5 py-2.5 rounded-xl hover:bg-blue-600 transition-all shadow-md hover:shadow-lg active:scale-95 uppercase tracking-wider"
                       >
                         Visit
                       </a>
@@ -177,10 +166,10 @@ export default function ToolsPage() {
             ))}
           </div>
         ) : (
-          <div className="text-center py-24 bg-white rounded-3xl shadow-inner mb-12">
+          <div className="text-center py-24 bg-white rounded-3xl shadow-inner mb-12 border border-gray-100">
             <div className="text-7xl mb-6">🔭</div>
             <h3 className="text-2xl font-bold text-gray-900 mb-2">No tools found</h3>
-            <p className="text-gray-600 mb-8 max-w-md mx-auto">Try adjusting your search or category filters to find what you're looking for.</p>
+            <p className="text-gray-600 mb-8 max-w-md mx-auto">Try adjusting your search or category filters to find what you&apos;re looking for.</p>
             <button
               onClick={resetFilters}
               className="bg-blue-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-blue-700 transition-all shadow-lg active:scale-95"
@@ -194,21 +183,21 @@ export default function ToolsPage() {
       {/* Floating Compare Bar */}
       {selectedForCompare.length > 0 && (
         <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 animate-in slide-in-from-bottom-full duration-300">
-          <div className="bg-gray-900 text-white px-6 py-4 rounded-2xl shadow-2xl flex items-center gap-8 backdrop-blur-md bg-opacity-95 border border-white/10">
+          <div className="bg-gray-900/95 text-white px-6 py-4 rounded-2xl shadow-2xl flex items-center gap-8 backdrop-blur-md border border-white/10">
             <div className="flex items-center gap-3">
               <span className="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">
                 {selectedForCompare.length}
               </span>
               <div>
                 <p className="text-sm font-bold">Tools selected</p>
-                <p className="text-xs text-gray-400">Compare up to 4 tools</p>
+                <p className="text-xs text-gray-400 font-medium">Compare up to 4 tools</p>
               </div>
             </div>
             
             <div className="flex items-center gap-3">
               <button 
                 onClick={() => setSelectedForCompare([])}
-                className="text-sm text-gray-400 hover:text-white transition-colors"
+                className="text-sm font-bold text-gray-300 hover:text-white transition-colors px-3 py-2 rounded-lg hover:bg-white/10"
               >
                 Clear
               </button>
@@ -229,7 +218,7 @@ export default function ToolsPage() {
           </div>
         </div>
       )}
+
     </div>
   );
 }
-

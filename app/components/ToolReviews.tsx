@@ -20,8 +20,11 @@ export default function ToolReviews({ tool }: ToolReviewsProps) {
   const [newRating, setNewRating] = useState(0);
   const [newComment, setNewComment] = useState('');
   const [submitting, setSubmitting] = useState(false);
-  const [averageRating, setAverageRating] = useState(tool.averageRating);
-  const [reviewCount, setReviewCount] = useState(tool.reviewCount);
+
+  const averageRating = reviews.length > 0 
+    ? reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length 
+    : tool.averageRating;
+  const reviewCount = reviews.length > 0 ? reviews.length : tool.reviewCount;
 
   const STORAGE_KEY = `reviews-${tool.id}`;
 
@@ -30,15 +33,12 @@ export default function ToolReviews({ tool }: ToolReviewsProps) {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       const parsed = JSON.parse(saved) as Review[];
-      setReviews(parsed);
-      // Recalculate average
-      if (parsed.length > 0) {
-        const avg = parsed.reduce((sum, r) => sum + r.rating, 0) / parsed.length;
-        setAverageRating(avg);
-        setReviewCount(parsed.length);
-      }
+      // Defer state update to avoid synchronous cascading render warning
+      setTimeout(() => {
+        setReviews(parsed);
+      }, 0);
     }
-  }, [tool.id]);
+  }, [STORAGE_KEY]);
 
   const handleSubmitReview = (e: React.FormEvent) => {
     e.preventDefault();

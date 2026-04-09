@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
       success: true, 
       message: 'Successfully subscribed! Welcome to AI Tools Guide updates.' 
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: 'Subscription failed. Try again.' }, { status: 500 });
   }
 }
