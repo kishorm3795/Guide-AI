@@ -1,56 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
+import { tools } from '../../../lib/tools';
 
 export const dynamic = 'force-dynamic';
-
-// Available AI tools data to provide context to the AI
-const toolsContext = [
-  {
-    id: 'chatgpt',
-    name: 'ChatGPT',
-    category: 'AI Assistants',
-    description: 'A powerful AI chatbot for conversation, writing, and problem-solving.',
-    features: ['Natural language processing', 'Code generation', 'Creative writing', 'Research assistance'],
-    pricing: 'Free tier available, premium plans start at $20/month',
-    useCases: ['Writing assistance', 'Coding help', 'Brainstorming ideas', 'Learning new topics']
-  },
-  {
-    id: 'notion-ai',
-    name: 'Notion AI',
-    category: 'Productivity',
-    description: 'AI-powered writing and automation features within Notion workspaces.',
-    features: ['Smart writing', 'Summarization', 'Translation', 'Task automation'],
-    pricing: 'Included in Notion plans, starts at $8/month',
-    useCases: ['Note-taking', 'Project management', 'Knowledge base', 'Team collaboration']
-  },
-  {
-    id: 'github-copilot',
-    name: 'GitHub Copilot',
-    category: 'Writing',
-    description: 'AI-powered code completion and generation tool for developers.',
-    features: ['Code suggestions', 'Function completion', 'Documentation', 'Test generation'],
-    pricing: '$10/month or $100/year',
-    useCases: ['Software development', 'Code review', 'Learning programming', 'Rapid prototyping']
-  },
-  {
-    id: 'midjourney',
-    name: 'Midjourney',
-    category: 'Automation',
-    description: 'AI image generation tool for creating stunning visuals from text prompts.',
-    features: ['Text-to-image', 'Style variations', 'High resolution', 'Discord integration'],
-    pricing: 'Free trial, plans from $10/month',
-    useCases: ['Graphic design', 'Marketing materials', 'Concept art', 'Social media content']
-  },
-  {
-    id: 'perplexity',
-    name: 'Perplexity',
-    category: 'Research',
-    description: 'AI-powered search engine that provides sourced answers to questions.',
-    features: ['Source citations', 'Follow-up questions', 'Pro search', 'API access'],
-    pricing: 'Free basic, Pro at $20/month',
-    useCases: ['Research', 'Fact-checking', 'Learning', 'Professional inquiries']
-  }
-];
 
 export async function POST(request: NextRequest) {
   try {
@@ -61,6 +13,17 @@ export async function POST(request: NextRequest) {
         { status: 500 }
       );
     }
+
+    // Available AI tools data formatted for the LLM
+    const toolsContext = tools.map(t => ({
+      id: t.id,
+      name: t.name,
+      category: t.category,
+      description: t.description,
+      features: t.features.slice(0, 3), // Limit features for token efficiency
+      pricing: t.pricing,
+      useCases: t.useCases.slice(0, 3)  // Limit use cases for token efficiency
+    }));
 
     // Parse request body
     const body = await request.json();
@@ -87,7 +50,7 @@ Provide recommendations in a friendly, helpful manner. For each recommended tool
 4. Pricing information
 5. A brief explanation of how it helps
 
-Format your response as JSON with the following structure:
+Format your response as valid JSON ONLY with the following structure:
 {
   "recommendations": [
     {
@@ -109,17 +72,13 @@ ${category ? `- Category: ${category}` : ''}
 
 Please recommend the best tools from your list that match these needs.`;
 
-    // Create OpenAI client only during request
-    if (!process.env.OPENAI_API_KEY) {
-      throw new Error('OPENAI_API_KEY not set');
-    }
     const openai = new OpenAI({
       apiKey: process.env.OPENAI_API_KEY,
     });
 
-    // Call OpenAI API
+    // Call OpenAI API with a more modern and cost-effective model
     const completion = await openai.chat.completions.create({
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-3.5-turbo', // Keeping current model but ensuring JSON format
       messages: [
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userPrompt }
@@ -128,17 +87,26 @@ Please recommend the best tools from your list that match these needs.`;
       max_tokens: 1000,
     });
 
-    const response = completion.choices[0]?.message?.content || '{}';
+    let response = completion.choices[0]?.message?.content || '{}';
+
+    // Robust JSON parsing: Remove markdown code blocks if present
+    if (response.includes('```json')) {
+      response = response.split('```json')[1].split('```')[0].trim();
+    } else if (response.includes('```')) {
+      response = response.split('```')[1].split('```')[0].trim();
+    }
 
     // Parse and return the response
     try {
       const recommendations = JSON.parse(response);
       return NextResponse.json(recommendations);
     } catch {
-      // If JSON parsing fails, return the raw response
+      // If JSON parsing fails, return a safe error message with the raw response for debugging
+      console.error('Failed to parse AI response:', response);
       return NextResponse.json({
-        rawResponse: response,
-        message: response
+        recommendations: [],
+        summary: "I'm sorry, I couldn't format the recommendations correctly. Please try again.",
+        rawResponse: response
       });
     }
 

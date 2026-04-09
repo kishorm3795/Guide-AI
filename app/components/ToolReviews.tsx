@@ -56,11 +56,6 @@ export default function ToolReviews({ tool }: ToolReviewsProps) {
     const updatedReviews = [...reviews, review];
     setReviews(updatedReviews);
 
-    // Recalculate average
-    const avg = updatedReviews.reduce((sum, r) => sum + r.rating, 0) / updatedReviews.length;
-    setAverageRating(avg);
-    setReviewCount(updatedReviews.length);
-
     // Save to localStorage
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updatedReviews));
 

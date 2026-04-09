@@ -53,8 +53,6 @@ export default function Header() {
                 <Link href="/about" className="text-gray-700 hover:text-blue-600 font-bold transition-colors">About</Link>
                 <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-bold transition-colors">Contact</Link>
               </nav>
-              <div className="pl-8 border-l border-gray-200 flex items-center">
-              </div>
             </div>
             
             {/* Mobile Menu Button */}
